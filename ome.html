@@ -33,9 +33,15 @@
 <body>
 	<top>
 		<nav class="navbar navbar-expand-lg navbar-white bg-white py-3 border-bottom" aria-label="AirenSoft Navigation">			
-			<div class="container">
-				<a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+			<div class="container">				
+				<a href="index.html" class="navbar-brand d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
 					<img src="images/airen_ci/02_Airen_Letter_K.png" width="auto" height="36" alt="AirenSoft"></a>
+				
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#AirenToggle" aria-controls="AirenToggle" aria-expanded="false" aria-label="Toggle">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse justify-content-md-end" id="AirenToggle">
 				<ul class="nav nav-pills">
 					<li class="nav-item fw-semibold"><a href="ome.html" class="nav-link active" aria-current="page">OvenMediaEngine</a></li>
 					<li class="nav-item fw-semibold"><a href="enterprise.html" class="nav-link">OvenMediaEngine Enterprise</a></li>
@@ -100,7 +106,7 @@
 	<features>
 		<div class="container">
 			<div class="text-secondary px-4 py-4 align-items-center text-center">
-				<h2 class="fw-semibold mb-4 mt-5 text-airen text-center">Advantages</h2>
+				<h2 class="fw-semibold mb-4 mt-5 text-airen text-center col-lg-10 mx-auto">Advantages</h2>
 			<div class="row py-4 row-cols-1 row-cols-lg-3 mx-auto">
 				
 				<div class="feature col shadow-sm mb-2 bg-body-tertiary rounded-2 px-5">
@@ -217,17 +223,17 @@
 	<demo>
 		<div class="text-secondary px-4 py-5 text-center" style="background-color:#ffad33;">
 				<h4 class="fw-semibold py-3 mb-2 text-white col-lg-10 mx-auto">OvenPlayer Demo</h4>
-					<div class="d-md-flex flex-md-equal my-md-auto justify-content-sm-center">
+					<div class="d-md-flex flex-md-equal my-md-auto justify-content-sm-center text-center">
 					  <p><a class="btn btn-airen3 btn-lg px-5 me-sm-2 fw-semibold" href="https://demo.ovenplayer.com/" target="_blank">Based on TLS</a></p>
 						<p><a class="btn btn-airen3 btn-lg px-5 mb-4 me-sm-2 fw-semibold" href="http://demo.ovenplayer.com/" target="_blank">Without TLS</a></p>
 				</div>
-			<hr>
-			<h4 class="fw-semibold py-3 mb-2 text-white col-lg-10 mx-auto">OvenSpace Demo</h4>			
-		  <div class="d-md-flex flex-md-equal my-md-auto justify-content-sm-center">
+			<hr class="mb-4">
+				<h4 class="fw-semibold py-2 mb-1 text-white col-lg-10 mx-auto">OvenSpace Demo</h4>	
+				<p class="small text-blue col-lg-10 mx-auto mb-4 fst-italic">※ OvenSpace is an Open-Source Web Video Conferencing Example, developed with OvenMediaEngine and OvenPlayer</p>
+		  <div class="d-md-flex flex-md-equal my-md-auto justify-content-sm-center text-center">
 			<p><a class="btn btn-airen3 btn-lg px-5 me-sm-2 fw-semibold mx-auto" href="https://github.com/AirenSoft/OvenSpace" target="_blank">Open-Source</a></p>
 						<p><a class="btn btn-airen3 btn-lg px-5 me-sm-2 fw-semibold mx-auto" href="https://space.ovenplayer.com/" target="_blank">OvenSpace</a></p>
 				</div>
-			<p class="small text-blue col-lg-10 mx-auto fst-italic">※ OvenSpace is an Open-Source Web Video Conferencing Example, developed with OvenMediaEngine and OvenPlayer</p>
 			</div>
 	</demo>
 	
@@ -253,17 +259,19 @@
 				<div class="py-3">
 					<div class="container">
 						<h4 class="fw-semibold py-3 mb-2 text-airen text-center col-lg-10 mx-auto">Open-Source</h4>
-						<h5 class="fw-medium mb-4 text-airen col-lg-10 mx-auto">OvenMediaEngine and OvenPlayer have been released under the licnese of <a href="https://github.com/AirenSoft/OvenMediaEngine/blob/master/LICENSE" target="_blank" class="text-reset">AGPLv3</a> and <a href="https://github.com/AirenSoft/OvenPlayer/blob/master/LICENSE" target="_blank" class="text-reset">MIT</a>. However, please feel free to email us if you need another license.</h5>
-							<a href="mailto:contact@airensoft.com?subject=[OvenMediaEngine] I need another licnese.">
-								<button type="button" class="btn btn-airen5 btn-lg px-5 me-sm-auto fs-6 fw-semibold">Email us</button></a>
+						<h5 class="fw-medium mb-4 text-airen col-lg-10 mx-auto">OvenMediaEngine and OvenPlayer are Open-Source. Therefore, you can freely use OvenMediaEngine under the <a href="https://github.com/AirenSoft/OvenMediaEngine/blob/master/LICENSE" target="_blank" class="text-reset">AGPLv3</a> and OvenPlayer under the <a href="https://github.com/AirenSoft/OvenPlayer/blob/master/LICENSE" target="_blank" class="text-reset">MIT</a> license. However, please feel free to email us if you need another license.</h5>
+							<a href="contact.html">
+								<button type="button" class="btn btn-airen5 btn-lg px-5 me-sm-auto fs-6 fw-semibold">Contact</button></a>
 					</div>
 				</div>
 				
 				<div class="py-3">
 					<div class="container">
-						<h5 class="fw-medium mb-4 mt-2 text-airen col-lg-10 mx-auto">Also, if you need technical support while using open-source, please visit AirenSoft's GitHub Issues.</h5>
-							<a href="https://github.com/AirenSoft/OvenMediaEngine/issues" target="_blank">
-								<button type="button" class="btn btn-airen5 btn-lg px-5 me-sm-auto fs-6 fw-semibold">AirenSoft's GitHub Issues</button></a>
+						<h5 class="fw-medium mb-4 mt-2 text-airen col-lg-10 mx-auto">Also, if you need technical support while using our open-source, please visit AirenSoft's GitHub Issues. Our developers and contributors are here to help you.</h5>
+							<div class="d-md-flex flex-md-equal my-md-auto text-center justify-content-sm-center">
+							<a href="https://github.com/AirenSoft/OvenMediaEngine/issues" target="_blank"><button type="button" class="btn btn-airen5 btn-lg px-5 me-sm-2 mb-2 fs-6 fw-semibold">OvenMediaEngine Issues</button></a>
+							<a href="https://github.com/AirenSoft/OvenPlayer/issues" target="_blank"><button type="button" class="btn btn-airen5 btn-lg px-5 me-sm-2 fs-6 fw-semibold">OvenPlayer Issues</button></a>
+							</div>
 					</div>
 				</div>
 				
@@ -309,13 +317,13 @@
 				<img src="images/partners/streamwell.png" alt="Steaemwell" width="120" height="auto">
 			</div>		
 			  <div class="album py-4 bg-white">
-				  <div class="container">				 
+				  <div class="container col-lg-9 mx-auto">				 
 					  
 					  <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-4">
 						  <div class="col">
 							  <div class="card shadow-sm mb-5">
 								  <a href="https://medium.com/@AirenSoft/the-world-cup-with-low-latency-live-streaming-sbs-cd716d567c1" target="_blank" class=" text-decoration-none">
-									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*l2k8yV9RF7vig2PxIw_MbA.webp" width="100%" height="270" style="object-fit:cover;">			  
+									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*l2k8yV9RF7vig2PxIw_MbA.webp" width="100%" height="200" style="object-fit:cover;">			  
 									  
 									  <div class="card-body">
 										  <h5 class="card-title py-2 mb-3">The World Cup with Low Latency Live Streaming: SBS</h5>
@@ -330,7 +338,7 @@
 						  <div class="col">
 							  <div class="card shadow-sm mb-5">
 								  <a href="https://medium.com/@AirenSoft/ovenmediaengine-is-certified-as-good-software-level-1-by-the-tta-4841c919c6bf" target="_blank" class=" text-decoration-none">
-									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*EsxtpGgsj7VeIeZW4WgNcQ.webp" width="100%" height="270" style="object-fit:cover;">
+									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*EsxtpGgsj7VeIeZW4WgNcQ.webp" width="100%" height="200" style="object-fit:cover;">
 									  
 									  <div class="card-body">
 										  <h5 class="card-title py-2 mb-3">OvenMediaEngine is certified as Good Software Level 1 by the TTA</h5>
@@ -345,7 +353,7 @@
 						  <div class="col">
 							  <div class="card shadow-sm mb-5">
 								  <a href="https://medium.com/@AirenSoft/live-commerce-with-sub-second-latency-streaming-183242baab71" target="_blank" class=" text-decoration-none">
-									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*iQvcuhnLo-hSRGld8TMw6w.webp" width="100%" height="270" style="object-fit:cover;">		
+									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*iQvcuhnLo-hSRGld8TMw6w.webp" width="100%" height="200" style="object-fit:cover;">		
 									  
 									  <div class="card-body">
 										  <h5 class="card-title py-2 mb-3">Live Commerce with Sub-Second Latency Streaming: GS Shop</h5>
@@ -375,7 +383,7 @@
 						<div class="mx-center">
 						  <p class="fs-6 mb-4 text-black-50 col-lg-10 mx-auto fw-light">Literally, OvenMediaEngine Enterprise is the Enterprise Edition of OvenMediaEngine. There are no functional differences between Open-Source and Enterprise Edition, but OvenMediaEngine Enterprise includes a Commercial License, Commercial Codec, Private Technical Support, Maintenance, Web Console, and more.</p>
 							<div class="d-md-flex my-md-auto justify-content-sm-center text-center">
-								<p><a class="btn btn-lg btn-product-bk px-4 me-sm-2 fw-semibold" href="enterprise.html">OveMediaEngine Enterprise</a></p>
+								<p><a class="btn btn-lg btn-product-bk mb-2 px-4 me-sm-2 fw-semibold" href="enterprise.html">OveMediaEngine Enterprise</a></p>
 							</div>
 				    </div>
 			  </div>

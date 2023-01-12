@@ -4330,8 +4330,8 @@ textarea.form-control-lg {
 }
 
 .card {
-  --bs-card-spacer-y: 1rem;
-  --bs-card-spacer-x: 1rem;
+  --bs-card-spacer-y: 0.75rem;
+  --bs-card-spacer-x: 0.75rem;
   --bs-card-title-spacer-y: 0.5rem;
   --bs-card-border-width: 1px;
   --bs-card-border-color: var(--bs-border-color-translucent);

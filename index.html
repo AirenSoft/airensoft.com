@@ -42,9 +42,15 @@
 -->
 	<top>
 		<nav class="navbar navbar-expand-lg navbar-white bg-white py-3 border-bottom" aria-label="AirenSoft Navigation">			
-			<div class="container">
-				<a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+			<div class="container">				
+				<a href="index.html" class="navbar-brand d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
 					<img src="images/airen_ci/02_Airen_Letter_K.png" width="auto" height="36" alt="AirenSoft"></a>
+				
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#AirenToggle" aria-controls="AirenToggle" aria-expanded="false" aria-label="Toggle">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse justify-content-md-end" id="AirenToggle">
 				<ul class="nav nav-pills">
 					<li class="nav-item fw-semibold"><a href="ome.html" class="nav-link">OvenMediaEngine</a></li>
 					<li class="nav-item fw-semibold"><a href="enterprise.html" class="nav-link">OvenMediaEngine Enterprise</a></li>
@@ -54,6 +60,7 @@
 					<li class="nav-item fw-semibold"><a href="company.html" class="nav-link">Company</a></li>
 					<li class="nav-item fw-semibold"><a href="contact.html" class="nav-link">Contact</a></li>
 				</ul>
+			</div>
 			</div>
 		</nav>
 		<div class="divider"></div>
@@ -67,14 +74,14 @@
 				<button type="button" data-bs-target="#AirenCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
 				<button type="button" data-bs-target="#AirenCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
 			</div>
-			<div class="carousel-inner">
+			<div class="carousel-inner col-lg-10 mx-auto">
 				<div class="carousel-item active" data-bs-interval="3600">
 					<svg class="bd-placeholder-img" width="100%" height="400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#ee6f2a"/></svg>
 
         <div class="container">
           <div class="carousel-caption d-none d-md-block">
-			  <h1 class="display-4 fw-bold text-white">OvenMediaEngine</h1>
-			  <p class="fs-5 mb-5 text-white fw-light fst-italic">"Open-Source Sub-Second Latency Streaming Solution with LLHLS and WebRTC"</p>
+			  <h1 class="display-4 fw-bold text-white col-lg-10 mx-auto">OvenMediaEngine</h1>
+			  <p class="fs-5 mb-5 text-white fw-light fst-italic col-lg-10 mx-auto">"Open-Source Sub-Second Latency Streaming Solution with LLHLS and WebRTC"</p>
 			  <p><a class="btn btn-lg btn-airen2 mb-5 px-5 me-sm-auto fw-semibold bg-gradient" href="ome.html">Learn more</a></p>
           </div>
         </div>
@@ -84,8 +91,8 @@
 
         <div class="container">
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="display-4 fw-bold text-white">OvenMediaEngine Enterprise</h1>
-			  <p class="fs-5 mb-5 text-white fw-light fst-italic">"OME for Business with Commercial License and Additional Utilities"</p>
+            <h1 class="display-4 fw-bold text-white col-lg-10 mx-auto">OvenMediaEngine Enterprise</h1>
+			  <p class="fs-5 mb-5 text-white fw-light fst-italic col-lg-10 mx-auto">"OME for Business with Commercial License and Additional Utilities"</p>
 			  <p><a class="btn btn-lg btn-airen2 mb-5 px-5 me-sm-auto fw-semibold bg-gradient" href="enterprise.html">Learn more</a></p>
           </div>
         </div>
@@ -95,8 +102,8 @@
 
         <div class="container">
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="display-4 fw-bold text-white">OvenLiveKit</h1>
-			  <p class="fs-5 mb-5 text-white fw-light fst-italic">"Mobile Live Encoder SDK with Sub-Second Latency Streaming"</p>
+            <h1 class="display-4 fw-bold text-white col-lg-10 mx-auto">OvenLiveKit</h1>
+			  <p class="fs-5 mb-5 text-white fw-light fst-italic col-lg-10 mx-auto">"Mobile Live Encoder SDK with Sub-Second Latency Streaming"</p>
 			  <p><a class="btn btn-lg btn-airen2 mb-5 px-5 me-sm-auto fw-semibold bg-gradient" href="olk.html">Learn more</a></p>
           </div>
         </div>
@@ -106,8 +113,8 @@
 
         <div class="container">
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="display-4 fw-bold text-white">OvenVideo</h1>
-			  <p class="fs-5 mb-5 text-white fw-light fst-italic">"Customizable On-Premise Online Video Platform"</p>
+            <h1 class="display-4 fw-bold text-white col-lg-10 mx-auto">OvenVideo</h1>
+			  <p class="fs-5 mb-5 text-white fw-light fst-italic col-lg-10 mx-auto">"Customizable On-Premise Online Video Platform"</p>
 			  <p><a class="btn btn-lg btn-airen2 mb-5 px-5 me-sm-auto fw-semibold bg-gradient" href="ov.html">Learn more</a></p>
           </div>
         </div>
@@ -130,16 +137,16 @@
 	
 	<blog>
 		<div class="text-secondary px-4 py-5 align-items-center text-center">
-			<h2 class="display-6 fw-bold text-dark">AirenBlog</h2>
+			<h2 class="display-6 fw-bold col-lg-10 mx-auto text-dark">AirenBlog</h2>
 			
 			  <div class="album py-4 bg-white">
-				  <div class="container">				 
+				  <div class="container col-lg-9">				 
 					  
 					  <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-4">
 						  <div class="col">
 							  <div class="card shadow-sm mb-5">
 								  <a href="https://medium.com/@AirenSoft/the-world-cup-with-low-latency-live-streaming-sbs-cd716d567c1" target="_blank" class=" text-decoration-none">
-									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*l2k8yV9RF7vig2PxIw_MbA.webp" width="100%" height="270" style="object-fit:cover;">			  
+									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*l2k8yV9RF7vig2PxIw_MbA.webp" width="100%" height="200" style="object-fit:cover;">			  
 									  
 									  <div class="card-body">
 										  <h5 class="card-title py-2 mb-3">The World Cup with Low Latency Live Streaming: SBS</h5>
@@ -154,7 +161,7 @@
 						  <div class="col">
 							  <div class="card shadow-sm mb-5">
 								  <a href="https://medium.com/@AirenSoft/ovenmediaengine-is-certified-as-good-software-level-1-by-the-tta-4841c919c6bf" target="_blank" class=" text-decoration-none">
-									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*EsxtpGgsj7VeIeZW4WgNcQ.webp" width="100%" height="270" style="object-fit:cover;">
+									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*EsxtpGgsj7VeIeZW4WgNcQ.webp" width="100%" height="200" style="object-fit:cover;">
 									  
 									  <div class="card-body">
 										  <h5 class="card-title py-2 mb-3">OvenMediaEngine is certified as Good Software Level 1 by the TTA</h5>
@@ -169,7 +176,7 @@
 						  <div class="col">
 							  <div class="card shadow-sm mb-5">
 								  <a href="https://medium.com/@AirenSoft/live-commerce-with-sub-second-latency-streaming-183242baab71" target="_blank" class=" text-decoration-none">
-									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*iQvcuhnLo-hSRGld8TMw6w.webp" width="100%" height="270" style="object-fit:cover;">		
+									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*iQvcuhnLo-hSRGld8TMw6w.webp" width="100%" height="200" style="object-fit:cover;">		
 									  
 									  <div class="card-body">
 										  <h5 class="card-title py-2 mb-3">Live Commerce with Sub-Second Latency Streaming: GS Shop</h5>
@@ -193,7 +200,7 @@
 	<about>
 		<div class="text-secondary px-4 py-4 text-center" style="background-color:#ffad33;">
 			<div class="py-5">
-				<h2 class="display-6 fw-bold text-white">AirenSoft</h2>
+				<h2 class="display-6 col-lg-10 mx-auto fw-bold text-white">AirenSoft</h2>
 				<div class="container">
 					<p class="fs-5 mb-5 col-lg-10 mx-auto text-white">We are a group of media technology experts devoted to research and development for 13 years. Also, we have committed to developing sub-second latency streaming solutions for the last 6 years.</p>
 					<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
