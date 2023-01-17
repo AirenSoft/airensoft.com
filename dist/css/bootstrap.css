@@ -11066,4 +11066,19 @@ textarea.form-control-lg {
   }
 }
 
+.btn-fix-size-340 {
+	width: 340px; !important
+}
+
+.btn-fix-size-280 {
+	width: 280px; !important
+}
+
+.btn-fix-size-200 {
+	width: 200px; !important
+}
+
+.btn-fix-size-140 {
+	width: 140px; !important
+}
 /*# sourceMappingURL=bootstrap.css.map */
