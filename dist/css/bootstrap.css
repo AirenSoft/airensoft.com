@@ -61,6 +61,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
+  --bs-body-color-2: #ee6f2a;
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -75,6 +76,7 @@
   --bs-link-color: #19191b;
   --bs-link-hover-color: #ee6f2a;
   --bs-code-color: #d63384;
+  --bs-code-color-2: #ee6f2a;
   --bs-highlight-bg: #fff3cd;
 }
 
@@ -279,7 +281,7 @@ pre code {
 
 code {
   font-size: 0.875em;
-  color: var(--bs-code-color);
+  color: var(--bs-code-color-2);
   word-wrap: break-word;
 }
 a > code {
@@ -290,7 +292,7 @@ kbd {
   padding: 0.1875rem 0.375rem;
   font-size: 0.875em;
   color: var(--bs-body-bg);
-  background-color: var(--bs-body-color);
+  background-color: var(--bs-body-color-2);
   border-radius: 0.25rem;
 }
 kbd kbd {
@@ -7822,6 +7824,26 @@ textarea.form-control-lg {
 
 .mt-auto {
   margin-top: auto !important;
+}
+
+.mt-n1 {
+  margin-top: -0.25rem !important;
+}
+
+.mt-n2 {
+  margin-top: -0.5rem !important;
+}
+
+.mt-n3 {
+  margin-top: -1rem !important;
+}
+
+.mt-n4 {
+  margin-top: -1.5rem !important;
+}
+
+.mt-n5 {
+  margin-top: -3rem !important;
 }
 
 .me-0 {

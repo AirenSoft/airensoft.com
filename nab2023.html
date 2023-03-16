@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="What is Sub-Second Latency Streaming?">
+    <meta name="author" content="AirenSoft">
+	<meta name="keywords" content="AirenSoft, OvenMediaEngine, OME, OvenPlayer, Sub Second Latency Streaming, LLHLS, WebRTC">
+	<title>AirenSoft</title>
+	<meta name="og:site_name" content="AirenSoft|About">
+	<meta name="og:title" content="AirenSoft">
+	<meta name="og:description" content="What is Sub-Second Latency Streaming?">
+	<meta name="og:type" content="webite">
+	<meta name="og:url" content="https://airensoft.com/latency.html">
+	<meta name="og:image" content="images/og/og_airen.png">
+	
+	<link href="dist/css/bootstrap.css" rel="stylesheet">
+	<script type="text/javascript" src="dist/js/bootstrap.bundle.js"></script>
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="images/ico/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/ico/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/ico/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/ico/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/ico/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/ico/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="images/ico/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/ico/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/ico/favicon-16x16.png">
+	<link rel="icon" type="image/x-icon" href="/images/ico/favicon.ico">
+	<link rel="manifest" href="images/ico/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="images/ico/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	</head>
+<body>
+<!--	<top>-->
+		<nav class="navbar navbar-expand-lg navbar-white bg-white py-3 border-bottom" aria-label="AirenSoft Navigation">			
+			<div class="container">				
+				<a href="index.html" class="navbar-brand d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+					<img src="images/airen_ci/02_Airen_Letter_K.png" width="auto" height="36" alt="AirenSoft"></a>
+				
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#AirenToggle" aria-controls="AirenToggle" aria-expanded="false" aria-label="Toggle">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse justify-content-md-end" id="AirenToggle">
+				<ul class="nav nav-pills">
+					<li class="nav-item fw-semibold"><a href="ome.html" class="nav-link">OvenMediaEngine</a></li>
+					<li class="nav-item fw-semibold"><a href="enterprise.html" class="nav-link">OvenMediaEngine Enterprise</a></li>
+					<li class="nav-item fw-semibold"><a href="ov.html" class="nav-link">OvenVideo</a></li>
+					<li class="nav-item fw-semibold"><a href="https://medium.com/@airensoft" class="nav-link" target="_blank">AirenBlog</a></li>
+					<li class="nav-item fw-semibold"><a href="company.html" class="nav-link">Company</a></li>
+					<li class="nav-item fw-semibold"><a href="contact.html" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+			</div>
+	</nav>
+	
+		<div class="divider"></div>
+		
+<!--	<header>-->
+		<div class="text-secondary px-4 py-4 text-center" style="background-color:#ee6f2a;">
+			<div class="py-5">
+				<h1 class=" fw-bold text-white">NAB Show 2023</h1>
+				<p class="fs-5 text-white fw-medium">Nice to meet you at the show!</p>
+			</div>
+
+	<div class="container bg-white border border-2 rounded-5 text-center mb-4 shadow col-lg-8">
+		<h4 class="fw-semibold mt-5 mb-4 text-airen text-center mx-auto">OvenMediaEngine Enterprise Demo</h4>
+		<div class="d-md-flex flex-md-equal gap-2 mx-auto text-center justify-content-sm-center">
+			<a href="https://drive.google.com/file/d/12JhyKuFdv9VP7dh62icYTIvUBHMSyf2X/view?usp=share_link" target="_blank"><button class="btn btn-airen btn-lg btn-fix-size-200 mb-2 fw-semibold" type="button">For Docker</button></a>
+			<a href="https://drive.google.com/file/d/1TV3GIeHO-QTE3sS5ZpWSgBnHLtUn26K8/view?usp=share_link" target="_blank"><button class="btn btn-airen btn-lg btn-fix-size-200 mb-5 fw-semibold" type="button">For CentOS</button></a>
+			<a href="https://drive.google.com/file/d/16mUBQjQrSWnKzBhfOyuIkDGNvpLFVXns/view?usp=share_link" target="_blank"><button class="btn btn-airen btn-lg btn-fix-size-200 mb-5 fw-semibold" type="button">For Ubuntu</button></a>
+		</div>
+	</div>
+			
+	<div class="container bg-white border border-2 rounded-5 text-center mb-4 shadow col-lg-8">
+		<h4 class="fw-semibold mt-5 mb-4 text-airen text-center mx-auto">Installation for Docker User</h4>
+		<ul class="list-group list-group-numbered">
+			<li class="list-group-item border-0 bg-transparent fs-6 text-black-75 col-lg-10 mx-auto">Download the OvenMediaEngine Enterprise Demo for Docker.</li>
+			<li class="list-group-item border-0 bg-transparent mt-n1 fs-6 text-black-75 col-lg-10 mx-auto">Then load it with the <a href="https://docs.docker.com/engine/reference/commandline/load/" target="_blank">Docker Load Command.</a></li>
+			<li class="list-group-item border-0 bg-transparent mt-n1 fs-6 text-black-75 col-lg-10 mx-auto">You can use one of two methods. If you do both, the environment variable takes precedence.</li>
+			<ul class="list-group-numbered">
+				<li class="list-group-item border-0 bg-transparent mt-n2 small fw-light text-black-75 col-lg-10 mx-auto">Use the <kbd>OME_LECENSE_KEY</kbd> environment variable: <code>docker run -e OME_LICENSE_KEY=XXX-XXX-XXX...</code></li>
+				<li class="list-group-item border-0 bg-transparent mt-n2 small fw-light mb-5 text-black-75 col-lg-10 mx-auto">Or after create the <kbd>origin_configuration/license</kbd> or <kbd>edge_configuration/license</kbd> file, enter the License Key</li>
+			</ul>
+		</ul>
+	</div>
+			
+	<div class="container bg-white border border-2 rounded-5 text-center mb-5 shadow col-lg-8">
+		<h4 class="fw-semibold mt-5 mb-4 text-airen text-center mx-auto">Installation for Linux-Package User</h4>
+		<ul class="list-group list-group-numbered">
+			<li class="list-group-item border-0 bg-transparent fs-6 text-black-75 col-lg-10 mx-auto">Download the OvenMediaEngine Enterprise Demo that matches your Linux package.</li>
+			<li class="list-group-item border-0 bg-transparent mt-n1 fs-6 mb-5 text-black-75 col-lg-10 mx-auto">Enter the License Key you were provided into <kbd>conf/License</kbd> in the Demo.</li>
+		</ul>
+			</div>
+	</div>
+			
+	<div class="divider"></div>
+			<div class="position-relative overflow-hidden text-center bg-light2 text-bg-light me-md-auto pt-3 px-3 pt-md-5 px-md-5 bg-gradient">
+				<div class="col-lg-9 mb-4 mx-auto">
+					<h2 class="fw-semibold col-lg-10 mx-auto">Do you need OvenMediaEngine for business?</h2>
+					<div class="mx-center">
+					  <p class="fs-6 mb-4 text-black-50 col-lg-10 mx-auto fw-light">Literally, OvenMediaEngine Enterprise is the Enterprise Edition of OvenMediaEngine. There are no functional differences between Open-Source and Enterprise Edition, but OvenMediaEngine Enterprise includes a Commercial License, Commercial Codec, Private Technical Support, Maintenance, Web Console, and more.</p>
+						<div class="d-md-flex my-md-auto justify-content-sm-center text-center">
+							<p><a class="btn btn-lg btn-product-bk mb-2 fw-semibold" href="enterprise.html">OvenMediaEngine Enterprise</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+	<div class="nav nav-dark bg-dark">
+		<div class="container">
+			<div class="py-3 my-4" aria-label="AirenSoft Footer">
+				<ul class="nav justify-content-center border-bottom border-light pb-3 mb-3 border-opacity-10">
+					<li class="nav-item"><a href="index.html" class="nav-link px-2 text-footer">Home</a></li>
+					<li class="nav-item"><a href="ome.html" class="nav-link px-2 text-footer">OvenMediaEngine</a></li>
+					<li class="nav-item"><a href="enterprise.html" class="nav-link px-2 text-footer">OvenMediaEngine Enterprise</a></li>
+					<li class="nav-item"><a href="ov.html" class="nav-link px-2 text-footer">OvenVideo</a></li>
+					<li class="nav-item"><a href="https://medium.com/@airensoft" class="nav-link px-2 text-footer" target="_blank">AirenBlog</a></li>
+					<li class="nav-item"><a href="company.html" class="nav-link px-2 text-footer">Company</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link px-2 text-footer">Contact</a></li>		
+				</ul>
+				
+				<div class="container py-3 ms-2">
+					<small class="text-muted"><span class="fw-semibold">· Address:</span> #1203, Twenty First Valley, 157, Yangpyeong-ro, Yeongdeungpo-gu, Seoul, 07207 Republic of Korea</small><br>
+					<small class="text-muted"><span class="fw-semibold">· Tel:</span> <a href="tel:+822-6378-5227" class="text-reset text-decoration-none">+82-2-6378-5227</a></small><br>
+					<small class="text-muted"><span class="fw-semibold">· Fax:</span> +82-2-6378-5228</small><br>
+					<small class="text-muted"><span class="fw-semibold">· Email:</span> <a href="mailto:contact@airensoft.com" class="text-reset text-decoration-none">contact@airensoft.com</a></small>
+				</div>
+				
+				<div class="d-flex flex-column flex-sm-row justify-content-between py-2">
+					<p class="text-muted">Copyright&copy; AirenSoft Co., Ltd. All rights reserved.</p>
+					<ul class="list-unstyled d-flex">
+						<li class="ms-3"><a href="https://github.com/AirenSoft" target="_blank"><img src="images/footer/github.png" width="24" alt="GitHub"></a></li>
+						<li class="ms-3"><a href="https://twitter.com/AirenSoft" target="_blank"><img src="images/footer/twitter.png" width="24" alt="Twitter"></a></li>
+						<li class="ms-3"><a href="https://www.linkedin.com/company/AirenSoft" target="_blank"><img src="images/footer/linkedin.png" width="24" alt="LikedIn"></a></li>
+						<li class="ms-3"><a href="https://facebook.com/AirenSoft" target="_blank"><img src="images/footer/facebook.png" width="24" alt="Facebook"></a></li>
+						<li class="ms-3"><a href="https://instagram.com/AirenSoft" target="_blank"><img src="images/footer/instagram.png" width="24" alt="Instagram"></a></li>						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
