@@ -78,6 +78,7 @@
   --bs-code-color: #d63384;
   --bs-code-color-2: #ee6f2a;
   --bs-highlight-bg: #fff3cd;
+  --bs-highlight-bg2: #fee9df;
 }
 
 *,
@@ -221,12 +222,21 @@ strong {
 }
 
 small, .small {
-  font-size: 0.875em;
+  font-size: 0.75em;
+}
+
+small2, .small2 {
+  font-size: 0.9em;
 }
 
 mark, .mark {
   padding: 0.1875em;
   background-color: var(--bs-highlight-bg);
+}
+
+mark2, .mark2 {
+  padding: 0.1em;
+  background-color: var(--bs-highlight-bg2);
 }
 
 sub,
@@ -3328,6 +3338,32 @@ textarea.form-control-lg {
   --bs-btn-font-size: 0.875rem;
   --bs-btn-border-radius: 0.25rem;
 }
+
+.btn {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  .btn {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .btn {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn {
+    font-size: 16px;
+  }
+}
+
 
 .fade {
   transition: opacity 0.15s linear;
@@ -7902,6 +7938,26 @@ textarea.form-control-lg {
   margin-bottom: auto !important;
 }
 
+.mb-n1 {
+  margin-bottom: -0.25rem !important;
+}
+
+.mb-n2 {
+  margin-bottom: -0.5rem !important;
+}
+
+.mb-n3 {
+  margin-bottom: -1rem !important;
+}
+
+.mb-n4 {
+  margin-bottom: -1.5rem !important;
+}
+
+.mb-n5 {
+  margin-bottom: -3rem !important;
+}
+	
 .ms-0 {
   margin-left: 0 !important;
 }
@@ -11109,4 +11165,25 @@ textarea.form-control-lg {
 .btn-fix-size-140 {
 	width: 140px; !important
 }
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+.fixed-top {
+    position: sticky;
+    top: 0;
+	background-color: white;
+  }
+
+.fixed-left {
+	position: sticky;
+	left: 0;
+	background-color: white;
+  }
+
+.vol button {
+  height:100%;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */

@@ -3,13 +3,13 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Sub-Second Latency Streaming Solution">
+    <meta name="description" content="Sub-Second Latency Streaming Server">
     <meta name="author" content="AirenSoft">
-	<meta name="keywords" content="AirenSoft, OvenMediaEngine, OME, OvenPlayer, Sub Second Latency Streaming, LLHLS, WebRTC">
+	<meta name="keywords" content="airensoft, ovenmediaengine, ome, ovenplayer, ovenlivekit, ovenspace, sub second latency streaming, sub second latency, ultra low latency streaming, ultra low latency, low latency streaming, low latency, llhls, low latency hls, webrtc, srt, rtsp, rtmp, llhls server, webrtc server, srt server, rtsp server, rtmp server, open source, open source streaming server, open source llhls server, open source webrtc server, open source srt server, open source rtsp server, open source rtmp server, html5 player, javescript player, streaming player, javescript live encoder, live encoder, streaming encoder">
 	<title>AirenSoft</title>
-	<meta name="og:site_name" content="AirenSoft|OvenMediaEngine">
+	<meta name="og:site_name" content="AirenSoft | OvenMediaEngine">
 	<meta name="og:title" content="AirenSoft">
-	<meta name="og:description" content="Sub-Second Latency Streaming Solution">
+	<meta name="og:description" content="Sub-Second Latency Streaming Server">
 	<meta name="og:type" content="webite">
 	<meta name="og:url" content="https://airensoft.com/ome.html">
 	<meta name="og:image" content="images/og/og_ome.png">
@@ -35,6 +35,17 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="images/ico/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+	
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YF1TS3WD9S"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		
+		gtag('config', 'G-YF1TS3WD9S');
+	</script>
+	
 	</head>
 <body>
 <!--	<top>-->
@@ -50,7 +61,7 @@
 				<div class="collapse navbar-collapse justify-content-md-end" id="AirenToggle">
 				<ul class="nav nav-pills">
 					<li class="nav-item fw-semibold"><a href="ome.html" class="nav-link active" aria-current="page">OvenMediaEngine</a></li>
-					<li class="nav-item fw-semibold"><a href="enterprise.html" class="nav-link">OvenMediaEngine Enterprise</a></li>
+					<li class="nav-item fw-semibold"><a href="care.html" class="nav-link">OvenMediaEngine Care</a></li>
 					<li class="nav-item fw-semibold"><a href="ov.html" class="nav-link">OvenVideo</a></li>
 					<li class="nav-item fw-semibold"><a href="https://medium.com/@airensoft" class="nav-link" target="_blank">AirenBlog</a></li>
 					<li class="nav-item fw-semibold"><a href="company.html" class="nav-link">Company</a></li>
@@ -71,9 +82,9 @@
 				  <p class="fs-6 text-light fw-light mb-5">OvenMediaEngine (OME) is an Open-Source Streaming Server that can stream high-definition live streams over Low Latency HLS (LLHLS) and WebRTC to hundreds of thousands of viewers with sub-second latency. OME can ingest live streams over WebRTC, SRT, RTMP, RTSP, and MPEG2-TS protocols, encode them to ABR with the embedded live transcoder, and stream them to viewers over LLHLS and WebRTC. With OvenMediaEngine, you can build your powerful and sub-second latency media service very easily.</p>
 				</div>
 				<div class="d-md-flex flex-md-equal gap-2 mx-auto text-center justify-content-sm-center">
-					<a href="https://github.com/AirenSoft/OvenMediaEngine" target="_blank"><button class="btn btn-airen2 btn-fix-size-280 btn-lg mb-2 fw-semibold" type="button">Open-Source</button></a>
+					<a href="https://github.com/AirenSoft/OvenMediaEngine" target="_blank"><button class="btn btn-airen2 btn-fix-size-280 btn-lg mb-2 fw-semibold fs-5" type="button">Open-Source</button></a>
 					<a href="https://airensoft.gitbook.io/ovenmediaengine/" target="_blank">
-					<button class="btn btn-airen2 btn-fix-size-280 btn-lg mb-3 fw-semibold" type="button">Getting Started</button></a>
+					<button class="btn btn-airen2 btn-fix-size-280 btn-lg mb-3 fw-semibold fs-5" type="button">Getting Started</button></a>
 				</div>
 			</div>
 		</div>
@@ -81,14 +92,15 @@
 <!--	<product>-->
 			<div class="d-md-flex flex-md-equal my-md-auto">
 				<div class="position-relative overflow-hidden bg-dark text-bg-dark me-md-auto mx-auto col-md-6 pt-3 px-3 pt-md-5 px-md-5 text-left bg-gradient">
-					<div class="col-md-8 ms-auto mb-4">
+					<div class="col-md-9 ms-auto mb-4">
 						<h2 class="mt-2 fw-semibold">OvenPlayer</h2>
 						<div class="mx-left">
 							<p class="fs-6 mb-4 text-white-50 fw-light">OvenPlayer is a JavaScript-based Open-Source Player that can play WebRTC and LLHLS streams optimized for OvenMediaEngine. It provides various APIs, so you can build and operate your media service more easily.</p>
-							<div class="d-md-flex flex-md-equal my-md-auto">
-								<div class="d-flex gap-2 d-md-flex justify-content-sm-center justify-content-md-start">
-								<a href="https://github.com/AirenSoft/OvenPlayer" target="_blank"><button class="btn btn-lg btn-fix-size-200 btn-product-w fs-6 fw-semibold" type="button">Open-Source</button></a>
-								<a href="https://airensoft.gitbook.io/ovenplayer/" target="_blank"><button class="btn btn-lg btn-fix-size-200 btn-product-w mb-4 fs-6 fw-semibold" type="button">Getting Started</button></a>
+							<div class="d-md-flex flex-md-equal mx-auto">
+								<!--<div class="d-flex gap-2 justify-content-sm-center justify-content-md-start ">-->
+								<div class="gap-2 flex-sm-wrap justify-content-sm-center justify-content-md-start mb-4">
+								<a href="https://github.com/AirenSoft/OvenPlayer" target="_blank"><button class="btn btn-lg btn-fix-size-200 btn-product-w mb-2 fs-6 fw-semibold" type="button">Open-Source</button></a>
+								<a href="https://airensoft.gitbook.io/ovenplayer/" target="_blank"><button class="btn btn-lg btn-fix-size-200 btn-product-w mb-2 fs-6 fw-semibold" type="button">Getting Started</button></a>
 								</div>
 							</div>
 						</div>
@@ -97,32 +109,32 @@
 				
 <!--				<div class="bg-dark text-bg-light me-md-auto mx-auto col-md-6 pt-3 px-3 pt-md-5 px-md-5 text-left bg-gradient overflow-hidden" style="background-color:#ee6f2a;">-->
 					<div class="position-relative overflow-hidden bg-light2 text-bg-light me-md-auto mx-auto col-md-6 pt-3 px-3 pt-md-5 px-md-5 text-left bg-gradient">
-					<div class="col-md-8 mb-4">
+					<div class="col-md-9 mb-4">
 						<h2 class="mt-2 fw-semibold">OvenLiveKit</h2>
 						<div class="mx-left">
 							<p class="fs-6 mb-4 text-black-50 fw-light">OvenLiveKit is a JavaScript-based Open-Source Live Streaming Encoder that supports WebRTC optimized for OvenMediaEngine. It relies on the browser's WebRTC API and wraps it to make it easy for you to broadcast WebRTC streams to OME.</p>
 							<div class="d-md-flex flex-md-equal my-md-auto">
-								<div class="d-flex gap-2 d-md-flex justify-content-sm-center justify-content-md-start">
-									<a href="https://github.com/AirenSoft/OvenLiveKit-Web" target="_blank"><button class="btn btn-lg btn-fix-size-200 btn-product-bk mb-4 fs-6 fw-semibold" type="button">Open-Source</button></a>
+								<div class="d-flex gap-2 flex-sm-wrap justify-content-sm-center justify-content-md-start mb-4">
+									<a href="https://github.com/AirenSoft/OvenLiveKit-Web" target="_blank"><button class="btn btn-lg btn-fix-size-200 btn-product-bk mb-2 fs-6 fw-semibold" type="button">Open-Source</button></a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-	
+												  
 			  <div class="position-relative overflow-hidden text-center me-md-auto pt-3 px-3 pt-md-5 px-md-5">
 				  <div class="col-lg-9 mb-4 mx-auto">
-					  <h3 class="fw-semibold mb-4 mt-2 text-airen text-center col-lg-10 mx-auto">Demo</h3>
+					  <h3 class="fw-semibold mb-4 mt-2 text-dark text-center col-lg-10 mx-auto">Demo</h3>
 					  <div class="mx-center">
-						  <p class="fs-6 text-black-50 col-lg-10 mx-auto fw-light">OvenSpace is a demo service using OvenMediaEngine as a streaming server, OvenPlayer as a player, and OvenLiveKit as a live streaming encoder. This service allows 9 broadcasters to broadcast at the same time, and a large number of people can watch. It is also released as an open-source.</p>
+						  <p class="fs-6 text-dark col-lg-10 mx-auto fw-light">OvenSpace is a demo service using OvenMediaEngine as a streaming server, OvenPlayer as a player, and OvenLiveKit as a live streaming encoder. This service allows 9 broadcasters to broadcast at the same time, and a large number of people can watch. It is also released as an open-source.</p>
 					  </div>
 					  <div class="container col-lg-8 justify-content-sm-center text-center">
 						  <img class="py-2 mb-4 img-fluid mx-auto" src="images/ome_screenshot/ovenspace.png" alt="OvenSpace Demo" max-width="100%" height="auto">
 					  </div>
-						  <div class="d-md-flex flex-md-equal gap-2 mx-auto text-center justify-content-sm-center">
+						  <div class="d-md-flex flex-md-equal gap-2 mx-auto text-center justify-content-sm-center align-top mb-5">
 							  <a href="https://space.ovenplayer.com/" target="_blank"><button class="btn btn-airen btn-fix-size-280 btn-lg mb-2 fw-semibold" type="button">Demo</button></a>
-							  <a href="https://github.com/AirenSoft/OvenSpace" target="_blank"><button class="btn btn-airen btn-fix-size-280 btn-lg mb-5 fw-semibold" type="button">Open-Source</button></a>
+							  <a href="https://github.com/AirenSoft/OvenSpace" target="_blank"><button class="btn btn-airen btn-fix-size-280 btn-lg mb-2 fw-semibold" type="button">Open-Source</button></a>
 						  </div>
 					  </div>
 				  </div>
@@ -148,7 +160,7 @@
 					<div class="feature-icon d-inline-flex mt-3 align-items-center justify-content-center text-bg-airen bg-gradient mb-3">
 						<embed src="images/svg/bar.svg" type="image/svg+xml" width="auto" height="40" aria-label="Various Protocols">
 					</div>
-					<h3 class="fs-2">Adaptive Bitrates (ABR)</h3>
+					<h3 class="fs-2">Adaptive Bitrates <span class="fs-3 fw-light">(ABR)</span></h3>
 					<p>Live transcoder embedded in OME that supports ABR of WebRTC and LLHLS</p>
 				</div>
 				
@@ -216,15 +228,15 @@
 					<h4 class="fw-semibold py-3 mb-2 text-dark text-center col-lg-10 mx-auto">Good-Software Level 1 Certification</h4>
 				<div class="mx-center text-center mb-2">
 					<p class="fs-6 mb-4 text-black-50 col-lg-10 mx-auto">OvenMediaEngine has been tested for Functional suitability, Performance efficiency, Usability, Reliability, and Security by TTA based on international standards <span class="small fst-italic">(ISO/IEC 25023, 25041, and 25051)</span> and has been certified Good-Software Level 1.</p>
-					<div class="d-md-flex flex-md-equal gap-2 mx-auto text-center justify-content-sm-center">
-					  <a href="https://sw.tta.or.kr/eng/service/gsce_it.jsp" target="_blank"><button class="btn btn-product-bk btn-fix-size-280 btn-lg mb-5 fw-semibold" type="button">Good-Software?</button></a>
-						<a href="https://sw.tta.or.kr/product/prod_gsce_view.jsp?num=7225&pa=cb09239aeba1973694e1a19ad149d59f" target="_blank"><button class="btn btn-product-bk btn-fix-size-280 btn-lg mb-4 fw-semibold" type="button">Certification</button></a>
+					<div class="d-md-flex flex-md-equal gap-2 mx-auto text-center justify-content-sm-center mb-4">
+					  <a href="https://sw.tta.or.kr/eng/service/gsce_it.jsp" target="_blank"><button class="btn btn-product-bk btn-fix-size-280 btn-lg mb-2 fw-semibold" type="button">Good-Software?</button></a>
+						<a href="https://sw.tta.or.kr/product/prod_gsce_view.jsp?num=7225&pa=cb09239aeba1973694e1a19ad149d59f" target="_blank"><button class="btn btn-product-bk btn-fix-size-280 btn-lg mb-2 fw-semibold" type="button">Certification</button></a>
 					</div>
 				</div>
 			</div>
 				
 <!--		<awards>-->
-			<div class="container text-center py-5 mt-1">
+			<div class="container text-center py-5">
 				<div class="container col-lg-10 mx-auto">
 					<img src="images/certification/rok.png" alt="Minister of Science and ICT Award" width="auto" height="100" class="px-3">
 					<img src="images/certification/opm.png" alt="Prime Minister Award" width="auto" height="100" class="px-3">
@@ -232,9 +244,9 @@
 				<h4 class="fw-semibold py-3 mb-2 text-dark text-center col-lg-10 mx-auto">Korea Software Awards</h4>
 				<div class="mx-center text-center mb-2">
 					<p class="fs-6 mb-4 text-black-50 col-lg-10 mx-auto">OvenMediaEngine proved its technological prowess by winning <span class="fw-bold">the Minister of Science and ICT Award</span> and <span class="fw-bold">the Prime Minister Award</span> of the Republic of Korea at the Korea Software Award 2022.</p>
-					<div class="d-md-flex flex-md-equal gap-2 mx-auto text-center justify-content-sm-center">
+					<div class="d-md-flex flex-md-equal gap-2 mx-auto text-center justify-content-sm-center mb-4">
 						<a href="https://www.etnews.com/20220919000264" target="_blank"><button class="btn btn-product-bk btn-fix-size-280 btn-lg mb-2 fw-semibold" type="button">MSIT Award <span class="small fw-lighter">(KR)</span></button></a>
-						<a href="https://www.etnews.com/20221207000198" target="_blank"><button class="btn btn-product-bk btn-fix-size-280 btn-lg fw-semibold" type="button">PM Award <span class="small fw-lighter">(KR)</span></button></a>
+						<a href="https://www.etnews.com/20221207000198" target="_blank"><button class="btn btn-product-bk btn-fix-size-280 btn-lg mb-2 fw-semibold" type="button">PM Award <span class="small fw-lighter">(KR)</span></button></a>
 					</div>
 				</div>
 			</div>
@@ -276,7 +288,7 @@
 			  <div class="album py-4 bg-white">
 				  <div class="container col-lg-9 mx-auto">				 
 					  
-					  <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-4">
+					  <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-2 align-content-top">
 						  <div class="col">
 							  <div class="card shadow-sm mb-1">
 								  <a href="https://medium.com/@AirenSoft/the-world-cup-with-low-latency-live-streaming-sbs-cd716d567c1" target="_blank" class=" text-decoration-none">
@@ -334,7 +346,7 @@
 				<ul class="nav justify-content-center border-bottom border-light pb-3 mb-3 border-opacity-10">
 					<li class="nav-item"><a href="index.html" class="nav-link px-2 text-footer">Home</a></li>
 					<li class="nav-item"><a href="ome.html" class="nav-link px-2 text-actived">OvenMediaEngine</a></li>
-					<li class="nav-item"><a href="enterprise.html" class="nav-link px-2 text-footer">OvenMediaEngine Enterprise</a></li>
+					<li class="nav-item"><a href="care.html" class="nav-link px-2 text-footer">OvenMediaEngine Care</a></li>
 					<li class="nav-item"><a href="ov.html" class="nav-link px-2 text-footer">OvenVideo</a></li>
 					<li class="nav-item"><a href="https://medium.com/@airensoft" class="nav-link px-2 text-footer" target="_blank">AirenBlog</a></li>
 					<li class="nav-item"><a href="company.html" class="nav-link px-2 text-footer">Company</a></li>
