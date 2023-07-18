@@ -9,42 +9,47 @@
 
 <url>
   <loc>https://airensoft.com/</loc>
-  <lastmod>2023-05-16T04:23:10+00:00</lastmod>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://airensoft.com/index.html</loc>
-  <lastmod>2023-05-16T04:23:10+00:00</lastmod>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://airensoft.com/ome.html</loc>
-  <lastmod>2023-05-16T04:23:10+00:00</lastmod>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://airensoft.com/support.html</loc>
-  <lastmod>2023-05-16T04:23:10+00:00</lastmod>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://airensoft.com/os.html</loc>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://airensoft.com/ov.html</loc>
-  <lastmod>2023-05-16T04:23:10+00:00</lastmod>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://airensoft.com/company.html</loc>
-  <lastmod>2023-05-16T04:23:10+00:00</lastmod>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://airensoft.com/contact.html</loc>
-  <lastmod>2023-05-16T04:23:10+00:00</lastmod>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://airensoft.com/latency.html</loc>
-  <lastmod>2023-05-16T04:23:10+00:00</lastmod>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
