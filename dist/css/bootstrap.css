@@ -37,9 +37,10 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-airen: #ee6f2a;
-  --bs-ome: #fab91d;
   --bs-bk: #1a1a1a;
+  --bs-airen: #ee6f2a;
+  --bs-airen2: #ffad33;
+  --bs-ome: #fab91d;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -51,6 +52,9 @@
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
+  --bs-airen-rgb: 238,111,42;
+  --bs-airen2-rgb: 255,173,51;
+  --bs-ome-rgb: 250,185,29;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -486,6 +490,8 @@ output {
 }
 
 iframe {
+  display: block;
+  border-style:none;
   border: 0;
 }
 
@@ -7153,10 +7159,20 @@ textarea.form-control-lg {
 }
 
 .vr {
+  display: inline-block;a
+  align-self: stretch;
+  width: 1px;
+  min-height: 1em;
+  background-color: currentcolor;
+  opacity: 0.25;
+}
+
+.vr-airen {
   display: inline-block;
   align-self: stretch;
   width: 1px;
   min-height: 1em;
+  color: #ee6f2a;
   background-color: currentcolor;
   opacity: 0.25;
 }
@@ -8365,6 +8381,11 @@ textarea.form-control-lg {
   color: #ee6f2a;
 }
 
+.text-airen2 {
+  --bs-text-opacity: 1;
+  color: #ffad33;
+}
+
 .text-black {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
@@ -8497,6 +8518,16 @@ textarea.form-control-lg {
 .bg-white {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-airen {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-airen-rbg), var(--bs-bg-opacity)) !important;
+}
+
+.bg-airen2 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-airen2-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-body {
@@ -11198,5 +11229,23 @@ img{
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
+}
+
+.preloader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ee6f2a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+
+.fade-out-animation {
+    opacity: 0;
+    visibility: hidden;
 }
 /*# sourceMappingURL=bootstrap.css.map */

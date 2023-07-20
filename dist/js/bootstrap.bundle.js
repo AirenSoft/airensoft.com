@@ -7072,6 +7072,15 @@
   return index_umd;
 
 }));
+
+//const preloaderWrapper = document.querySelector('.preloader-wrapper');
+//window.addEventListener('load', function() => {
+//						preloaderWrapper.style.opacity = '0';
+//setTimeout(() => {
+//	preloaderWrapper.style.display = 'none';
+//}, 200);
+//});
+
 //# sourceMappingURL=bootstrap.bundle.js.map
 
  document.addEventListener("click",function (e){
