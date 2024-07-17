@@ -40,6 +40,7 @@
   --bs-bk: #1a1a1a;
   --bs-airen: #ee6f2a;
   --bs-airen2: #ffad33;
+  --bs-airen3: #ffad33;
   --bs-ome: #fab91d;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
@@ -54,6 +55,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-airen-rgb: 238,111,42;
   --bs-airen2-rgb: 255,173,51;
+  --bs-airen3-rgb: 255,173,51;
   --bs-ome-rgb: 250,185,29;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
@@ -8528,6 +8530,11 @@ textarea.form-control-lg {
 .bg-airen2 {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-airen2-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-airen3 {
+  --bs-bg-opacity: 0.5;
+  background-color: rgba(var(--bs-airen3-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-body {

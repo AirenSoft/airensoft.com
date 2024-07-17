@@ -3,7 +3,7 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #ee6f2a;
+        fill: #ffad33;
       }
 
       .cls-1, .cls-2 {
@@ -24,12 +24,14 @@
         stroke-width: 14px;
       }
     </style>
-    <linearGradient id="linear-gradient" x1="200" y1="678" x2="200" y2="1078" gradientTransform="translate(0 -678)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="200" y1="0" x2="200" y2="400" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#ee6f2a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fbba1e" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect class="cls-1" width="400" height="400"/>
-  <rect class="cls-2" width="400" height="400"/>
+  <g>
+    <circle class="cls-1" cx="200" cy="200.1" r="200"/>
+    <circle class="cls-2" cx="200" cy="200" r="200"/>
+  </g>
   <path class="cls-3" d="M200,312.5s90-45,90-112.5v-78.8l-90-33.8-90,33.8v78.8c0,67.5,90,112.5,90,112.5Z"/>
 </svg>

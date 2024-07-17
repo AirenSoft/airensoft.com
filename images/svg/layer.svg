@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400">
   <defs>
     <style>
       .cls-1 {
@@ -24,12 +24,16 @@
         stroke-width: 14px;
       }
     </style>
-    <linearGradient id="linear-gradient" x1="200" y1="678" x2="200" y2="1078" gradientTransform="translate(0 -678)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="200" y1="-276" x2="200" y2="-676" gradientTransform="translate(0 -276) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
       <stop offset="1" stop-color="#ee6f2a" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <rect class="cls-1" width="400" height="400"/>
   <rect class="cls-2" width="400" height="400"/>
-  <path class="cls-3" d="M200,312.5s90-45,90-112.5v-78.8l-90-33.8-90,33.8v78.8c0,67.5,90,112.5,90,112.5Z"/>
+  <g>
+    <polygon class="cls-3" points="200 100 100 150 200 200 300 150 200 100"/>
+    <polyline class="cls-3" points="100 250 200 300 300 250"/>
+    <polyline class="cls-3" points="100 200 200 250 300 200"/>
+  </g>
 </svg>
