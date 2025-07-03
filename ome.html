@@ -116,7 +116,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<link href="dist/css/bootstrap.css" rel="stylesheet">
 	<script type="text/javascript" src="dist/js/bootstrap.bundle.js"></script>
 	</head>
-<body>
+
+	<body class="fade-page">
 	
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THBJMSZV"
@@ -135,12 +136,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				
 				<div class="collapse navbar-collapse justify-content-md-end" id="AirenToggle">
 				<ul class="nav nav-pills">
-					<li class="nav-item fw-semibold"><a href="ome.html" class="nav-link active">OvenMediaEngine</a></li>
-					<li class="nav-item fw-semibold"><a href="ome-enterprise.html" class="nav-link">OvenMediaEngine Enterprise</a></li>
-					<li class="nav-item fw-semibold"><a href="support.html" class="nav-link">OvenMediaEngine Support</a></li>
-					<li class="nav-item fw-semibold"><a href="https://medium.com/@OvenMediaEngine" class="nav-link" target="_blank" rel="noopener">AirenBlog</a></li>
-					<li class="nav-item fw-semibold"><a href="company.html" class="nav-link">Company</a></li>
-					<li class="nav-item fw-semibold"><a href="contact.html" class="nav-link">Contact</a></li>
+					<li class="nav-item fw-semibold px-1"><a href="ome.html" class="nav-link active">OvenMediaEngine</a></li>
+					<li class="nav-item fw-semibold px-1"><a href="ome-enterprise.html" class="nav-link">OvenMediaEngine Enterprise</a></li>
+					<li class="nav-item fw-semibold px-1"><a href="https://medium.com/@OvenMediaEngine" class="nav-link" target="_blank" rel="noopener">AirenBlog</a></li>
+					<li class="nav-item fw-semibold px-1"><a href="company.html" class="nav-link">Company</a></li>
+					<li class="nav-item fw-semibold px-1"><a href="contact.html" class="nav-link">Contact</a></li>
 				</ul>
 			</div>
 			</div>
@@ -151,10 +151,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--	<header>-->
 		<div class="text-secondary px-4 py-4 text-center" style="background-color:#ee6f2a;">
 			<div class="py-5">
-				<h1 class="display-4 fw-bold text-white">OvenMediaEngine</h1>
+				<h1 id="ovenmediaengine" class="display-4 fw-bold text-white">OvenMediaEngine</h1>
 				<p class="fs-5 mb-4 text-white fw-medium">Open-Source and Fully-Featured Low-Latency Live Streaming Server</p>
 				<div class="col-lg-6 mx-auto">
-				  <p class="fs-6 text-light fw-light mb-5">OvenMediaEngine (OME) is Fully-Featured Streaming Server that can stream high-definition live streams over WebRTC and Low Latency HLS (LLHLS) to hundreds of thousands of viewers with sub-second latency. OME can ingest live streams over WebRTC, WHIP, SRT, RTMP, RTSP, and MPEG2-TS protocols, encode them to ABR with the embedded live transcoder, and stream them to viewers over LLHLS and WebRTC. With OvenMediaEngine, you can build your powerful and sub-second latency media service very easily.</p>
+				  <p class="fs-6 text-light fw-light mb-5">OvenMediaEngine (OME) is Fully-Featured Streaming Server that can stream high-definition live streams over WebRTC, Low Latency HLS (LL-HLS), and SRT to hundreds of thousands of viewers with sub-second latency. OME can ingest live streams over WebRTC/WHIP, SRT, RTMP, RTSP, and MPEG2-TS protocols, encode them to ABR with the embedded live transcoder, and stream them to viewers over WebRTC, LL-HLS, and SRT. With OvenMediaEngine, you can build your powerful and sub-second latency media service/solution/platform very easily.</p>
 				</div>
 <!--				<div class="d-md-flex flex-md-equal gap-2 mx-md-auto text-center justify-content-sm-center">-->
 					<div class="d-flex gap-2 flex-wrap justify-content-center">
@@ -169,7 +169,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="d-md-flex flex-md-equal my-md-auto">
 				<div class="position-relative overflow-hidden me-md-auto mx-auto col-md-6 pt-3 px-3 pt-md-5 px-md-5 text-left bg-gradient" style="background-color:#1a1a1a">
 					<div class="col-md-9 ms-auto mb-4">
-						<h2 class="mt-2 text-white fw-semibold">OvenPlayer</h2>
+						<h2 id="ovenplayer" class="mt-2 text-white fw-semibold anchor-hack">OvenPlayer</h2>
 						<div class="mx-left">
 							<p class="fs-6 mb-4 text-white-50 fw-light">OvenPlayer is Open-Source and Player Library that can play WebRTC and LLHLS streams optimized for OvenMediaEngine. It provides various APIs, so you can build and operate your media service more easily.</p>
 							<div class="d-md-flex flex-md-equal mx-auto">
@@ -187,7 +187,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--				<div class="bg-dark text-bg-light me-md-auto mx-auto col-md-6 pt-3 px-3 pt-md-5 px-md-5 text-left bg-gradient overflow-hidden" style="background-color:#ee6f2a;">-->
 					<div class="position-relative overflow-hidden bg-light2 text-bg-light me-md-auto mx-auto col-md-6 pt-3 px-3 pt-md-5 px-md-5 text-left bg-gradient">
 					<div class="col-md-9 mb-4">
-						<h2 class="mt-2 fw-semibold">OvenLiveKit</h2>
+						<h2 id="ovenlivekit" class="mt-2 fw-semibold anchor-hack">OvenLiveKit</h2>
 						<div class="mx-left">
 							<p class="fs-6 mb-4 text-black-75 fw-light">OvenLiveKit is Open-Source and WebRTC Streaming Encoder for OvenMediaEngine. It relies on the browser's WebRTC API and wraps it to make it easy for you to broadcast WebRTC streams to OME.</p>
 							<div class="d-md-flex flex-md-equal my-md-auto">
@@ -202,7 +202,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 												  
 			  <div class="position-relative overflow-hidden text-center me-md-auto pt-3 px-3 pt-md-5 px-md-5">
 				  <div class="col-lg-9 mb-4 mx-auto">
-					  <h3 class="fw-semibold mb-4 mt-2 text-dark text-center col-lg-10 mx-auto">Demo</h3>
+					  <h3 id="demo" class="fw-semibold mb-4 mt-2 text-dark text-center col-lg-10 mx-auto anchor-hack anchor-copy">Demo</h3>
 					  <div class="mx-center">
 						  <p class="fs-6 text-dark col-lg-10 mx-auto fw-light">OvenSpace is a demo service using OvenMediaEngine as a streaming server, OvenPlayer as a player, and OvenLiveKit as a live streaming encoder. This service allows 9 broadcasters to broadcast at the same time, and a large number of people can watch. It is also released as an open-source.</p>
 					  </div>
@@ -222,10 +222,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--	<features>-->
 		<div class="container">
 			<div class="text-secondary px-4 py-4 align-items-center text-center">
-				<h2 class="fw-semibold mb-4 mt-5 text-airen text-center col-lg-10 mx-auto">Features</h2>
-			<div class="row py-4 row-cols-1 row-cols-lg-3 g-2 mx-auto">
+				<h2 id="features" class="fw-semibold mb-4 mt-5 text-airen text-center col-lg-10 mx-auto anchor-hack anchor-copy">Features</h2>
+			<div class="row py-4 row-cols-1 row-cols-lg-3 mx-auto">
 				
-				<div class="feature col shadow-sm mb-2 bg-body-tertiary rounded-2 px-5">
+				<div class="feature col shadow-sm mb-2 bg-body-tertiary rounded-4 px-5">
 					<div class="feature-icon d-inline-flex mt-3 align-items-center justify-content-center text-bg-airen bg-gradient mb-3">
 						<embed src="images/svg/stopwatch.svg" type="image/svg+xml" width="auto" height="40" aria-label="Sub-Second Latnecy Streaming">
 					</div>
@@ -233,7 +233,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<p>OME delivers live streams in Sub-Seconds Latency using WebRTC and LLHLS</p>
 				</div>
 				
-				<div class="feature col shadow-sm mb-2 bg-body-tertiary rounded-2 px-5">
+				<div class="feature col shadow-sm mb-2 bg-body-tertiary rounded-4 px-5">
 					<div class="feature-icon d-inline-flex mt-3 align-items-center justify-content-center text-bg-airen bg-gradient mb-3">
 						<embed src="images/svg/bar.svg" type="image/svg+xml" width="auto" height="40" aria-label="Adaptive Bitrates">
 					</div>
@@ -241,7 +241,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<p>Live transcoder embedded in OME that supports ABR of WebRTC and LLHLS</p>
 				</div>
 				
-				<div class="feature col shadow-sm mb-2 bg-body-tertiary rounded-2 px-5">
+				<div class="feature col shadow-sm mb-2 bg-body-tertiary rounded-4 px-5">
 					<div class="feature-icon d-inline-flex mt-3 align-items-center justify-content-center text-bg-airen bg-gradient mb-3">
 						<embed src="images/svg/slider.svg" type="image/svg+xml" width="auto" height="40" aria-label="High Scalability Structure">
 					</div>
@@ -249,7 +249,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<p>Origin-Edge cluster can scale to accommodate increasing broadcast and viewers</p>
 				</div>
 				
-				<div class="feature col shadow-sm mb-2 bg-body-tertiary rounded-2 px-5">
+				<div class="feature col shadow-sm mb-2 bg-body-tertiary rounded-4 px-5">
 					<div class="feature-icon d-inline-flex mt-3 align-items-center justify-content-center text-bg-airen bg-gradient mb-3">
 						<embed src="images/svg/ingest.svg" type="image/svg+xml" width="auto" height="40" aria-label="Various Ingest Protocols">
 					</div>
@@ -257,7 +257,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<p>OME supports various ingest protocols such as WebRTC, SRT, RTMP, MPEG-2 TS, and RTSP Pull</p>
 				</div>
 				
-				<div class="feature col shadow-sm mb-2 bg-body-tertiary rounded-2 px-5">
+				<div class="feature col shadow-sm mb-2 bg-body-tertiary rounded-4 px-5">
 					<div class="feature-icon d-inline-flex mt-3 align-items-center justify-content-center text-bg-airen bg-gradient mb-3">
 						<embed src="images/svg/max.svg" type="image/svg+xml" width="auto" height="40" aria-label="REST API for Integration">
 					</div>
@@ -265,7 +265,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<p>OME provides REST API for various features such as Access control and Monitoring to integration with your media service</p>
 				</div>
 				
-				<div class="feature col shadow-sm mb-2 bg-body-tertiary rounded-2 px-5">
+				<div class="feature col shadow-sm mb-2 bg-body-tertiary rounded-4 px-5">
 					<div class="feature-icon d-inline-flex mt-3 align-items-center justify-content-center text-bg-airen bg-gradient mb-3">
 						<embed src="images/svg/key.svg" type="image/svg+xml" width="auto" height="40" aria-label="Essential Features for Building Media Services">
 					</div>
@@ -279,7 +279,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--		<flow>-->
 			<div class="container text-center mt-2 mb-4">
 				<div class="container justify-content-sm-center text-center">
-					<h4 class="fw-semibold text-airen col-lg-10 mb-3 mt-4 mx-auto">Workflow of OvenMediaEngine</h4>
+					<h4 id="workflow" class="fw-semibold text-airen col-lg-10 mb-3 mt-4 mx-auto anchor-hack">Workflow of OvenMediaEngine</h4>
 				<div class="container col-lg-8 justify-content-sm-center text-center">
 					<img class="py-2 mb-4 img-fluid mx-auto" src="images/ome_screenshot/ome_llhls.webp" alt="Workflow of OvenMediaEngine" max-width="100%" height="auto">
 					</div>
@@ -296,14 +296,124 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 						
 		<div class="divider"></div>
+	
+			<div class="position-relative overflow-hidden text-center me-md-auto bg-light pt-3 px-3 pt-md-5 px-md-5">
+			<div class="col-lg-9 mb-4 mx-auto">
+			<h3 id="ovenmediaengine-support" class="fw-semibold mb-4 mt-4 text-airen text-center col-lg-10 mx-auto anchor-hack anchor-copy">OvenMediaEngine Support Program</h3>
+			<div class="mx-center">
+			  <p class="fs-6 text-dark-50 col-lg-10 mx-auto fw-light">We truly appreciate your sponsorship of our open-source project.<br>As a team, we’ve always been looking for meaningful ways to show our gratitude to the many sponsors who support OvenMediaEngine. To better meet your needs, our developers have launched a new support program tailored specifically for sponsors. If you’d like faster and more direct support, we warmly encourage you to join the program.</p>
+				</div>	
+			</div>
+						
+			<div class="table-responsive col-lg-10 mx-auto">
+				<table class="table mt-4">
+					<thead>
+						<tr class="text-responsive">
+							<th scope="col" style="background-color:white; width:5%; border-radius: 15px 0 0 0;" class="fixed-top mt-3"></th>
+							<th scope="col" style="background-color:white; width:20%;"><h3 class="fs-2 text-airen mt-3">Community</h3></th>
+							<th scope="col" style="background-color:white; width:20%;"><h3 class="fs-2 text-airen mt-3">Standard</h3></th>
+							<th scope="col" style="background-color:white; width:20%;"><h3 class="fs-2 text-airen mt-3">Professional</h3></th>
+							<th scope="col" style="background-color:white; width:20%; border-radius: 0 15px 0 0;"><h3 class="fs-2 text-airen mt-3">Core Contributor</h3></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="align-top border-0 border-white">
+							<th scope="row" class="fixed-left mb-n1" style="background-color:white;">Price</th>
+							<td style="background-color:white;"><p class="fs-3 text-airen fw-semibold mb-n1" style="color:#ff5722;">Free</p></td>
+							<td style="background-color:white;"><p class="fs-3 text-airen fw-semibold mb-n1" style="color:#ff5722;">$100<small class="text-muted fw-light">/month</small></p></td>
+							<td style="background-color:white;"><p class="fs-3 text-airen fw-semibold mb-n1" style="color:#ff5722;">$300<small class="text-muted fw-light">/month</small></p></td>
+							<td style="background-color:white;"><p class="fs-3 text-airen fw-semibold mb-n3" style="color:#ff5722;">Contact us</p><br><p class="small text-muted lh-sm mb-1 px-4">※ If you’ve helped OvenMediaEngine grow, you’re one of us!</p></td>
+						</tr>				
+						<tr class="align-top">
+							<th scope="row" class="fixed-left" style="background-color:white;"></th>
+							<td style="background-color:white;"><div class="d-grid gap-2 px-1"><a href="https://github.com/AirenSoft/OvenMediaEngine/discussions" target="_blank" rel="noopener" class="btn vol btn-block btn-airen-trans btn-lg fs-6 mb-2 fw-semibold rounded-pill" role="button">GitHub Discussions</a></div></td>
+							<td style="background-color:white"><div class="d-grid gap-2 px-1"><a href="https://github.com/sponsors/AirenSoft" target="_blank" rel="noopener" class="btn vol btn-block btn-airen-trans btn-lg fs-6 mb-2 fw-semibold rounded-pill" role="button">Silver Sponsors</a></div></td>
+							<td style="background-color:white;"><div class="d-grid gap-2 px-1"><a href="https://github.com/sponsors/AirenSoft" target="_blank" rel="noopener" class="btn vol btn-block btn-airen-trans btn-lg fs-6 mb-2 fw-semibold rounded-pill" role="button">Gold Sponsors</a></div></td>
+							<td style="background-color:white;"><div class="d-grid gap-2 px-1"><a href="contact.html" target="_blank" rel="noopener" class="btn vol btn-block btn-airen-trans btn-lg fs-6 mb-2 fw-semibold rounded-pill" role="button">Contact</a></div></td>
+						</tr>
+						<tr class="align-top">
+							<th scope="row" class="fixed-left" style="background-color:white;">Scope</th>
+							<td style="background-color:white;" class="small2 px-4">Technical Support</td>
+							<td style="background-color:white;" class="small2 px-4">Technical Support</td>
+							<td style="background-color:white;" class="small2 px-4">Direct Technical Support</td>
+							<td style="background-color:white;" class="small2 px-4">Direct Technical Support,<br>Roadmap Discussions,<br>Consulting</td>
+						</tr>
+						<tr class="align-top">
+							<th scope="row" class="fixed-left" style="background-color:white;">Channel</th>
+							<td style="background-color:white;" class="small2 px-4">GitHub Discussions<br>(Public Forum)</td>
+							<td style="background-color:white;" class="small2 px-4">Email,<br>GitHub Discussions</td>
+							<td style="background-color:white;" class="small2 px-4">Email,<br>GitHub Discussions</td>
+							<td style="background-color:white;" class="small2 px-4">Slack, Email,<br>GitHub Discussions</td>
+						</tr>
+					  <tr class="align-top">
+						  <th scope="row" class="fixed-left" style="background-color:white;">Response<br>Times</th>
+						  <td style="background-color:white;"><p class="small2 text-center px-4">Best efforts will be made to respond within <mark2>up to 7 business days</mark2> (GMT+9)</p></td>
+						  <td style="background-color:white;"><p class="small2 text-center px-4">Best efforts will be made to respond within <mark2>up to 5 business days</mark2> (GMT+9)</p></td>
+						  <td style="background-color:white;"><p class="small2 text-center px-4">Best efforts will be made to respond within <mark2>up to 3 business day</mark2> (GMT+9)</p></td>
+						  <td style="background-color:white;"><p class="small2 text-center px-4">Best efforts will be made to respond within <mark2>up to 1 business day</mark2> (GMT+9)</p></td>
+
+						</tr>	
+						<tr class="align-top">
+							<th scope="row" class="fixed-left border-0" style="background-color:white; border-radius: 0 0 0 15px;">Benefits</th>
+							<td class="border-0" style="background-color:white;">
+								<ul class="list-unstyled">
+									<ul class="small2 text-start mx-3">
+										<li>Gain insights from a wide range of contributors.</li></ul></ul></td>
+							<td class="border-0" style="background-color:white;">
+								<ul class="list-unstyled">
+									<ul class="small2 text-start mx-3">
+										<li class="mb-2">Response priority in GitHub Discussions.</li>
+										<li class="mb-2">Gain insights from a wide range of contributors.</li>
+									</ul></ul></td>
+							<td class="border-0" style="background-color:white;">
+								<ul class="list-unstyled">
+									<ul class="small2 text-start mx-3">
+										<li class="mb-2">Direct email technical support from the OvenMediaEngine developer,  not from a general help desk.</li>
+										<li class="mb-2">Higher response priority in GitHub Discussions</li>
+										<li class="mb-2">Gain insights from a wide range of contributors.</li></ul></ul></td>
+							
+							<td class="border-0" style="background-color:white; border-radius: 0 0 15px 0;">
+								<ul class="list-unstyled">
+									<ul class="small2 text-start mx-3 mb-3">
+										<li class="mb-2">Shared Slack channel with the OvenMediaEngine Team.</li>
+										<li class="mb-2">Direct technical support and consulting from the core OvenMediaEngine developer via Slack and Email.</li>
+										<li class="mb-2">Roadmap collaboration and proposal acceptance.</li>
+										<li class="mb-2">Priority feature requests based on your contributions.</li>
+										<li class="mb-2">Top-priority responses in GitHub Discussions</li></ul></ul></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>			
+	</div>
+<!--	<div id="card-list" class="d-none"></div>-->
+			
+	<div class="text-secondary px-4 text-center bg-light text-bg-light">
+		<div class="py-3">
+				<div class="mx-center text-start">
+					<ul class="fs-6 text-black-50 col-lg-10 mx-auto"><b>Business Days</b>
+					<ul class="small text-start">
+						<li>From Monday to Friday, except on holidays observed in South Korea.</li>
+					</ul>
+					</ul>
+					<ul class="fs-6 text-black-50 col-lg-10 mx-auto mb-5"><b>Business Hours</b>
+					<ul class="small text-start">
+						<li>From 9:00 a.m. to 6:00 p.m. (GMT+9) on Business Days.</li>
+					</ul>
+					</ul>
+			</div>
+		</div>
+</div>
+	
+	<div class="divider"></div>
+	
 <!--		<gs>-->
 	<div class="text-secondary px-4 py-4 text-center bg-light2 text-bg-light bg-gradient">
 		<div class="py-3">
 				<div class="container justify-content-sm-center text-center">
-				<img class="py-2 mt-4 mx-auto" src="images/certification/good.webp" alt="Good Software Level 1" width="auto" height="100">
+				<img class="py-2 mt-4 mx-auto anchor-hack" src="images/certification/good.webp" alt="Good Software Level 1" width="auto" height="100">
 				
 				</div>
-					<h4 class="fw-semibold py-3 mb-2 text-dark text-center col-lg-10 mx-auto">Good-Software Level 1 Certification</h4>
+					<h4 id="gs-lv1" class="fw-semibold py-3 mb-2 text-dark text-center col-lg-10 mx-auto anchor-hack">Good-Software Level 1 Certification</h4>
 				<div class="mx-center text-center mb-2">
 					<p class="fs-6 mb-4 text-black-50 col-lg-9 mx-auto">OvenMediaEngine has been tested for Functional suitability, Performance efficiency, Usability, Reliability, and Security by TTA based on international standards <span class="small fst-italic">(ISO/IEC 25023, 25041, and 25051)</span> and has been certified Good-Software Level 1.</p>
 					<div class="d-md-flex flex-md-equal gap-2 mx-auto text-center justify-content-center mb-4">
@@ -319,10 +429,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<img src="images/certification/rok.webp" alt="Minister of Science and ICT Award" width="auto" height="100" class="px-3">
 					<img src="images/certification/opm.webp" alt="Prime Minister Award" width="auto" height="100" class="px-3">
 				</div>
-				<h4 class="fw-semibold py-3 mb-2 text-dark text-center col-lg-10 mx-auto">Korea Software Awards</h4>
+				<h4 id="awards" class="fw-semibold py-3 mb-2 text-dark text-center col-lg-10 mx-auto anchor-hack">Korea Software Awards</h4>
 				<div class="mx-center text-center mb-2">
 					<p class="fs-6 mb-4 text-black-50 col-lg-9 mx-auto">OvenMediaEngine proved its technological prowess by winning <span class="fw-bold">the Minister of Science and ICT Award</span> and <span class="fw-bold">the Prime Minister Award</span> of the Republic of Korea at the Korea Software Award 2022.</p>
-					<div class="d-md-flex flex-md-equal gap-2 mx-auto text-center justify-content-center mb-4">
+					<div class="d-md-flex flex-md-equal gap-2 mx-auto text-center justify-content-center mb-2">
 						<a href="https://www.etnews.com/20220919000264" target="_blank" rel="noopener"><button class="btn btn-product-bk btn-fix-size-280 btn-lg mb-2 fw-semibold" type="button">MSIT Award <span class="small fw-lighter">(KR)</span></button></a>
 						<a href="https://www.etnews.com/20221207000198" target="_blank" rel="noopener"><button class="btn btn-product-bk btn-fix-size-280 btn-lg mb-2 fw-semibold" type="button">PM Award <span class="small fw-lighter">(KR)</span></button></a>
 					</div>
@@ -335,19 +445,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	
 	<!--	<professional>-->
 		<div class="text-secondary px-4 py-5 text-center bg-gradient" style="background-color:#1a1a1a;">
-				<h4 class="fw-semibold py-2 mb-1 text-white col-lg-9 mx-auto">Do you need OvenMediaEngine with a Commercial License instead of AGPLv3?<br><span class="text-airen">If so, consider OvenMediaEngine Professional</span></h4>
-			<p class="small2 text-blue col-lg-9 mx-auto mb-4 fst-italic">※ You can discuss various options for a Commercial License with us, such as server count, channel count, or embedded-in-specific device count.</p>
+				<h4 class="fw-semibold py-2 mb-4 text-white col-lg-9 mx-auto">Do you need OvenMediaEngine with a Commercial License instead of AGPLv3?<br><span class="text-airen">If so, consider OvenMediaEngine Enterprise!</span></h4>
 			<div class="d-grid gap-2 d-sm-flex mx-auto justify-content-center">
-				<p><a class="btn btn-airen2 btn-fix-size-280 btn-lg fw-semibold" href="contact.html" target="_blank" rel="noopener">Contact</a></p>
+				<p><a class="btn btn-airen2 btn-fix-size-280 btn-lg fw-semibold" href="ome-enterprise.html" target="_blank" rel="noopener">OvenMediaEngine Enterprise</a></p>
 			</div>
-	</div>
-	
-	<div class="text-secondary px-4 py-5 text-center bg-gradient" style="background-color:#ffad33;">
-		<h4 class="fw-semibold py-2 mb-4 text-white col-lg-9 mx-auto">Are you experiencing difficulties using OvenMediaEngine and in need of Technical Support?</h4>
-		
-		<div class="d-grid gap-2 d-sm-flex mx-auto justify-content-center">
-			<a href="support.html" target="_blank" rel="noopener"><button class="btn btn-airen3 btn-fix-size-280 btn-lg mb-2 fw-semibold" type="button">Support Program</button></a>
-		</div>
 	</div>
 	
 	<div class="divider">
@@ -355,7 +456,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 												  
 <!--	<blog>-->
 		<div class="text-secondary px-4 py-5 align-items-center text-center">
-			<h4 class="fw-semibold text-airen col-lg-10 mb-3 mt-4 mx-auto">More and more partners are using OvenMediaEngine, OvenPlayer, and OvenLiveKit</h4>
+			<h4 id="airenblog" class="fw-semibold text-airen col-lg-10 mb-3 mt-4 mx-auto anchor-hack anchor-copy">More and more partners are using OvenMediaEngine, OvenPlayer, and OvenLiveKit</h4>
 			
 			  <div class="album py-4 bg-white">
 				  <div class="container col-lg-9">				 
@@ -424,13 +525,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="container">
 			<div class="py-3 my-4" aria-label="AirenSoft Footer">
 				<ul class="nav justify-content-center border-bottom border-light pb-3 mb-3 border-opacity-10">
-					<li class="nav-item"><a href="index.html" class="nav-link px-2 text-footer">Home</a></li>
-					<li class="nav-item"><a href="ome.html" class="nav-link px-2 text-actived">OvenMediaEngine</a></li>
-					<li class="nav-item"><a href="ome-enterprise.html" class="nav-link px-2 text-footer">OvenMediaEngine Enterprise</a></li>
-					<li class="nav-item"><a href="support.html" class="nav-link px-2 text-footer">OvenMediaEngine Support</a></li>
-					<li class="nav-item"><a href="https://medium.com/@airensoft" class="nav-link px-2 text-footer" target="_blank" rel="noopener">AirenBlog</a></li>
-					<li class="nav-item"><a href="company.html" class="nav-link px-2 text-footer">Company</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link px-2 text-footer">Contact</a></li>		
+					<li class="nav-item"><a href="index.html" class="nav-link px-3 text-footer">Home</a></li>
+					<li class="nav-item"><a href="ome.html" class="nav-link px-3 text-actived">OvenMediaEngine</a></li>
+					<li class="nav-item"><a href="ome-enterprise.html" class="nav-link px-3 text-footer">OvenMediaEngine Enterprise</a></li>
+					<li class="nav-item"><a href="https://medium.com/@airensoft" class="nav-link px-3 text-footer" target="_blank" rel="noopener">AirenBlog</a></li>
+					<li class="nav-item"><a href="company.html" class="nav-link px-3 text-footer">Company</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link px-3 text-footer">Contact</a></li>		
 				</ul>
 				
 				<div class="container py-3 ms-2">
@@ -453,5 +553,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 		</div>
 	</div>
+	<div id="copy-toast" class="copy-toast">✅ Link copied! Share it with your friends!</div>
 </body>
 </html>

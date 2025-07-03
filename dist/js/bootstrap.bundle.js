@@ -7091,3 +7091,37 @@
    	  myModal.show();
    }
  });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const anchors = document.querySelectorAll(".anchor-copy");
+  const toast = document.getElementById("copy-toast");
+  let toastTimer = null; // 현재 실행 중인 타이머 저장용
+
+  anchors.forEach(anchor => {
+    anchor.addEventListener("click", () => {
+      const id = anchor.id;
+      const url = `${location.origin}${location.pathname}#${id}`;
+
+      navigator.clipboard.writeText(url).then(() => {
+        // 토스트가 이미 보이고 있으면 타이머 초기화
+        if (toast.classList.contains("show")) {
+          clearTimeout(toastTimer);
+        }
+
+        // 토스트 표시
+        toast.classList.add("show");
+
+        // 일정 시간 후 숨기기
+        toastTimer = setTimeout(() => {
+          toast.classList.remove("show");
+        }, 1000);
+      });
+    });
+  });
+});
+
+  window.addEventListener('DOMContentLoaded', () => {
+    requestAnimationFrame(() => {
+      document.body.classList.add('fade-in');
+    });
+  });
