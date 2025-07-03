@@ -7120,8 +7120,3 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-  window.addEventListener('DOMContentLoaded', () => {
-    requestAnimationFrame(() => {
-      document.body.classList.add('fade-in');
-    });
-  });

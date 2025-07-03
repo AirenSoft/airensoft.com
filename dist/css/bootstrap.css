@@ -11406,13 +11406,29 @@ a.unstyled-link {
   font: inherit;
 }
 
-.fade-page {
-  opacity: 0.75;
-	transition: opacity 0.5s ease;
+  html {
+    scroll-behavior: smooth;
+  }
+
+#floating-nav {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 1030;
 }
 
-.fade-page.fade-in {
-  opacity: 1;
+#scrollTopBtn {
+  bottom: 20px;
+  right: 20px;
+  z-index: 1030;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  text-align: center;
+  line-height: 46px;
+  font-size: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
 
