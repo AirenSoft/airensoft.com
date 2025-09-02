@@ -7120,3 +7120,13 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+  const acc = document.getElementById('faq');
+  acc.addEventListener('shown.bs.collapse', () => {
+    acc.classList.add('has-open');
+  });
+  acc.addEventListener('hidden.bs.collapse', () => {
+    if (!acc.querySelector('.accordion-collapse.show')) {
+      acc.classList.remove('has-open');
+    }
+  });
+

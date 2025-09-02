@@ -130,6 +130,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<a href="#" class="btn rounded-pill btn-outline-secondary bg-gradient small2 mb-2">Top</a>
 			<a href="#key-features" class="btn rounded-pill btn-outline-secondary bg-gradient small2 mb-2">Features</a>
 			<a href="#pricing" class="btn rounded-pill btn-outline-secondary bg-gradient small2 mb-2">Pricing</a>
+			<a href="#x264" class="btn rounded-pill btn-outline-secondary bg-gradient small2 mb-2">Add-on</a>
 			<a href="#enterprise-support" class="btn rounded-pill btn-outline-secondary bg-gradient small2 mb-2">Support</a>
 			<a href="#airenblog" class="btn rounded-pill btn-outline-secondary bg-gradient small2 mb-2">Blog</a>
 		</div>
@@ -301,7 +302,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	
 	<div class="position-relative overflow-hidden text-center me-md-auto bg-dark bg-gradient text-bg-dark pt-3 px-3 pt-md-5 px-md-5">
 			<div class="col-lg-9 mb-4 mx-auto">
-			<h2 id="pricing" class="fw-semibold mb-4 mt-4 text-center col-lg-10 mx-auto anchor-hack anchor-copy">Pricing</h2>
+			<h2 id="pricing" class="fw-semibold mb-4 mt-4 text-center mx-auto anchor-hack anchor-copy">Pricing</h2>
 			</div>
 						
 			<div class="table-responsive col-lg-10 mx-auto">
@@ -365,7 +366,82 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</tr>					  
 					</tbody>
 				</table>
+		</div>
+			
+		<div class="col-lg-9 mb-4 mx-auto">
+			<h3 id="x264" class="fw-semibold mt-4 text-center mx-auto anchor-hack anchor-copy">With <img class="py-4 mx-auto" src="images/partners/x264.webp" alt="with x264" width="16%" height="auto"></h3>
+			<div class="mx-center mt-n2">
+				<p class="fs-5 text-dark-50 col-lg-10 mx-auto fw-light">Choose this option to use x264 with OvenMediaEngine Enterprise.</p>
 			</div>
+			</div>
+						
+			<div class="table-responsive col-lg-10 mx-auto">
+				<table class="table">
+					<thead>
+						<tr class="text-responsive">
+							<th scope="col" style="background-color:white; width:30%; border-radius: 15px 0 0 0;"><h3 class="fs-2 text-airen mt-3">Monthly Add-on</h3></th>
+							<th scope="col" style="background-color:white; width:30%; border-radius: 0 15px 0 0;"><h3 class="fs-2 text-airen mt-3">Perpetual Add-on</h3></th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr class="align-top">
+							<td style="background-color:white; vertical-align: middle;" class="pb-4"><p class="fs-1 fw-semibold mt-1 mb-n4" style="color:#ff5722;">$3</p><br><small class="fs-6 fw-medium">per channel per month</small></td>
+							<td style="background-color:white; vertical-align: middle;" class="pb-4"><p class="fs-1 fw-semibold mt-1 mb-n4" style="color:#ff5722;">$90</p><br><small class="fs-6 fw-medium">per channel</small></td>
+						</tr>				
+						<tr class="align-top border-0 border-white">
+							<td colspan="2" style="text-align: center; background-color:white; vertical-align: top;" class="fs-5 text-start px-5 py-3"><b>FAQ</b>
+								
+								<div class="accordion accordion-flush mt-1" id="faq">
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="q1">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="false" aria-controls="a1"><span class="acc-title">Q1. If we do not choose x264, what encoders does OvenMediaEngine Enterprise provide?</span></button></h5>
+										<div id="a1" class="accordion-collapse collapse" data-bs-parent="#faq">
+											<div class="accordion-body fs-6">OvenMediaEngine Enterprise includes the OpenH264 as a software encoder and GPU encoders from NVIDIA and AMD Xilinx by default. You may scale usage without a channel cap as long as your server capacity allows.</div>
+										</div>
+									</div>
+									
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="q2">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2" aria-expanded="false" aria-controls="a2"><span class="acc-title">Q2. What is the difference between OpenH264 and x264?</span></button></h5>
+										<div id="a2" class="accordion-collapse collapse" data-bs-parent="#faq">
+											<div class="accordion-body fs-6">Both encode H.264. OpenH264 is great for real-time and lightweight use, while x264 delivers higher quality at the same bitrate (or the same quality at a lower bitrate) thanks to advanced encoding tools and presets.</div>
+										</div>
+									</div>
+									
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="q3">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="a3"><span class="acc-title">Q3. Why choose our x264 option?</span></button></h5>
+										<div id="a3" class="accordion-collapse collapse" data-bs-parent="#faq">
+											<div class="accordion-body fs-6">We officially support x264 commercial licensing for OvenMediaEngine Enterprise, so you can ship closed-source, enterprise-grade services with improved compression efficiency.</div>
+										</div>
+									</div>
+									
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="q4">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a4" aria-expanded="false" aria-controls="a4"><span class="acc-title">Q4. Is billing per server or per channel?</span></button></h5>
+										<div id="a4" class="accordion-collapse collapse" data-bs-parent="#faq">
+											<div class="accordion-body fs-6">Billing is per channel. A channel is defined as each output stream encoded with x264. When a media source is ingested into OvenMediaEngine Enterprise and encoded with x264 for output, each x264-encoded output stream counts as one channel. If there are 10 x264 output streams, that is 10 channels.</div>
+										</div>
+									</div>
+									
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="q5">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a5" aria-expanded="false" aria-controls="a5"><span class="acc-title">Q5. Can we use GPU encoders alongside x264?</span></button></h5>
+										<div id="a5" class="accordion-collapse collapse" data-bs-parent="#faq">
+											<div class="accordion-body fs-6">You can mix OpenH264, x264, and GPU encoders from NVIDIA and AMD Xilinx to meet your workload and quality targets. For example, keep 1080p on the GPU while using x264 for premium profiles. We help you select presets to meet your quality and latency targets, and you can offload other profiles to balance resources.
+											</div>
+										</div>
+									</div>
+								</div>
+															
+						<tr class="align-bottom border-0">
+							<td colspan="2" style="text-align: center; background-color:white; border-radius: 0 0 15px 15px;" class="mb-4">
+								<div class="d-md-flex flex-md-equal gap-2 d-sm-flex mx-auto justify-content-center px-4"><a class="btn btn-airen-trans btn-fix-size-width btn-lg fw-semibold mt-4 mb-4 rounded-pill" href="mailto:contact@airensoft.com?subject=[OME Enterprise] I need the x264 option" target="_blank" rel="noopener">Contact</a></div></td>
+						</tr>				  
+					</tbody>
+				</table>		
+		</div>
 	</div>
 			
 	<div class="d-flex justify-content-center bg-dark text-light" style="height: 124px;">
@@ -374,7 +450,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		
 	<div class="position-relative overflow-hidden text-center me-md-auto bg-dark bg-gradient2 text-bg-dark px-3 pt-md-5 px-md-5">
 			<div class="col-lg-9 mb-4 mx-auto">
-			<h3 id="enterprise-support" class="fw-semibold mb-4 text-center col-lg-10 mx-auto anchor-hack anchor-copy">OvenMediaEngine Enterprise Support Program</h3>
+			<h3 id="enterprise-support" class="fw-semibold mb-4 text-center mx-auto anchor-hack anchor-copy">OvenMediaEngine Enterprise Support Program</h3>
 			</div>
 						
 			<div class="table-responsive col-lg-10 mx-auto">
@@ -424,8 +500,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						  <td style="background-color:white;"><p class="small2 text-center px-4">Best efforts will be made to respond within <mark2>up to 1 business day</mark2> (GMT+9)</p>
 							  <ul class="small text-start mx-4">
 								  <li>P1: 2 hours</li>
-								  <li>P2: 4 hours</li>
-								  <li>P3: 8 hours</li>
+								  <li>P2: 4 business hours</li>
+								  <li>P3: 8 business hours</li>
 							  </ul></td>
 					  </tr>
 						<tr class="align-top border-0 border-white">
@@ -433,12 +509,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<td style="background-color:white;">
 								<ul class="list-unstyled">
 									<ul class="small2 text-start mx-3">
-										<li class="mb-2">Direct email technical support from the OME Enterprise Team of core OvenMediaEngine developers.</li></ul></ul></td>
+										<li class="mb-2">Direct email technical support from the OME Enterprise Team of core OvenMediaEngine developers.</li>
+										<li class="mb-2">Technical support covers the latest and supported prior releases.</li></ul></ul></td>
 							<td style="background-color:white;">
 								<ul class="list-unstyled">
 									<ul class="small2 text-start mx-3">
 										<li class="mb-2">Email and Slack technical support from the OME Enterprise Team, formed by OvenMediaEngine’s core developers.</li>
-										<li class="mb-2">Higher response priority through Email and Slack.</li></ul></ul></td>
+										<li class="mb-2">Higher response priority through Email and Slack.</li>
+										<li class="mb-2">Technical support is available for the current release and prior versions.</li></ul></ul></td>
 							<td style="background-color:white;">
 								<ul class="list-unstyled">
 									<ul class="small2 text-start mx-3">
@@ -452,6 +530,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<li class="mb-2">Performance validation and WebRTC concurrency testing support.</li>
 										<li class="mb-2">Security best practices, access control strategies, and operational recommendations.</li>
 										<li class="mb-2">Ongoing collaboration with OvenMediaEngine core developers via a dedicated private Slack channel.</li>
+										<li class="mb-2">And more.</li>
 									</ul></ul></td>
 						</tr>
 		
@@ -494,7 +573,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!--	<explain>-->
 	<div class="text-secondary bg-light2 px-4 py-5 text-center bg-gradient">
 				<div class="container text-center mt-2">
-					<h4 id="webconsole" class="fw-semibold text-airen col-lg-10 mb-3 mt-4 mx-auto anchor-hack">Web Console of OvenMediaEngine Enterprise</h4>
+					<h4 id="webconsole" class="fw-semibold text-airen mb-3 mt-4 mx-auto anchor-hack">Web Console of OvenMediaEngine Enterprise</h4>
 				<section class="gallery">
 					<div class="container col-lg-10 mx-auto py-2">
 					<img class="gallery-item mb-1 img-fluid mx-auto" src="images/os_screenshot/01_stream_list.webp" alt="Stream List" width="480" height="auto" data-slide-to="0">
@@ -536,7 +615,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	
 <!--<blog>-->
 		<div class="text-secondary px-4 py-5 align-items-center text-center">
-			<h4 id="airenblog" class="fw-semibold text-airen col-lg-10 mb-3 mt-4 mx-auto anchor-hack anchor-copy">Get the latest updates and technology trends from AirenBlog</h4>
+			<h4 id="airenblog" class="fw-semibold text-airen mb-3 mt-4 mx-auto anchor-hack anchor-copy">Get the latest updates and technology trends from AirenBlog</h4>
 <!--
 			<div class="container col-lg-6 mx-auto mb-4 py-2">
 				<img src="#" alt="#" width="120" height="auto">		
