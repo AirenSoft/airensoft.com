@@ -421,7 +421,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<h5 class="accordion-header" id="q4">
 											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a4" aria-expanded="false" aria-controls="a4"><span class="acc-title">Q4. Is billing per server or per channel?</span></button></h5>
 										<div id="a4" class="accordion-collapse collapse" data-bs-parent="#faq">
-											<div class="accordion-body fs-6">Billing is per channel. A channel is defined as each output stream encoded with x264. When a media source is ingested into OvenMediaEngine Enterprise and encoded with x264 for output, each x264-encoded output stream counts as one channel. If there are 10 x264 output streams, that is 10 channels.</div>
+											<div class="accordion-body fs-6">Billing is per channel. One channel means one x264-encoded output video track. A single live stream can include multiple video, audio, and subtitle tracks; therefore, if it has five x264-encoded output video tracks, it counts as five channels. For example, if you ingest a media source into OvenMediaEngine Enterprise and encode an ABR stream with x264 producing three output video tracks (1080p, 720p, 480p), that counts as three channels.</div>
 										</div>
 									</div>
 									
@@ -560,7 +560,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</ul>
 					<ul class="fs-6 col-lg-10 mx-auto mb-5"><b>Business Hours</b>
 					<ul class="small text-start">
-						<li>From 7:00 a.m. to 7:00 p.m. (GMT+9) on Business Days.</li>
+						<li>From 9:00 a.m. to 6:00 p.m. (UTC+9) on Business Days.</li>
 					</ul>
 					</ul>
 			</div>
