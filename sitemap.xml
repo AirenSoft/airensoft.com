@@ -7,7 +7,7 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>https://airensoft.com/</loc>
+  <loc>https://airensoft.com</loc>
   <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
@@ -23,11 +23,6 @@
 </url>
 <url>
   <loc>https://airensoft.com/ome-enterprise.html</loc>
-  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://airensoft.com/support.html</loc>
   <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -51,4 +46,46 @@
   <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   <priority>0.25</priority>
 </url>
+
+<url>
+  <loc>https://airensoft.com/</loc>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://airensoft.com/index</loc>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://airensoft.com/ome</loc>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://airensoft.com/ome-enterprise</loc>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://airensoft.com/company</loc>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://airensoft.com/contact</loc>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://airensoft.com/latency</loc>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://airensoft.com/404</loc>
+  <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+  <priority>0.25</priority>
+</url>
+
 </urlset>
