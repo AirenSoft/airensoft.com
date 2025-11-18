@@ -4890,6 +4890,10 @@ textarea.form-control-lg {
   display: none;
 }
 
+.badge-flexible {
+  margin-bottom: 1rem;
+}
+
 .btn .badge {
   position: relative;
   top: -1px;
