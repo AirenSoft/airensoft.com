@@ -1,356 +1,419 @@
 <!doctype html>
-<html lang="en">
-	<head>
+<html lang="en" data-bs-theme="dark">
 	
-	<!-- Primary Meta Tags -->
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>AirenSoft</title>
-	<meta name="title" content="AirenSoft">
-	<meta name="description" content="Media Technology Experts Group">
-	<meta name="keywords" content="airensoft, airen, ovenmediaengine, oven media, oven media engine, ome, ovenmediaserver, oven media server, ovenplayer, oven player, oven media player, ovenlivekit, ovenvideo, ovenspace, ovenstudio, airenblog, open source streaming, open source streaming server, streaming github, streaming server github"/>
-	<meta property="robots" content="index">
-	<meta property="googlebot" content="index">
-		
-	<link rel="icon" href="https://airensoft.com/images/ico/android-icon-192x192.png?alt=media">
-	<link rel="preload" as="image" href="https://airensoft.com/images/og/og_airen.png?alt=media">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>AirenSoft | Media Technology Experts Group</title>
 	
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://airensoft.com/">
-	<meta property="og:title" content="AirenSoft">
-	<meta property="og:description" content="Media Technology Experts Group">
-	<meta property="og:image" content="https://airensoft.com/images/og/og_airen.png">
-	<meta property="og:image:width" content="1200">
-	<meta property="og:image:height" content="627">
-	<meta property="og:site_name" content="AirenSoft">
-	
-	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="https://airensoft.com/">
-	<meta property="twitter:title" content="AirenSoft">
-	<meta property="twitter:description" content="Media Technology Experts Group">
-	<meta property="twitter:image" content="https://airensoft.com/images/og/og_airen.png">
-		
-	<!-- Icons -->
-	<link rel="apple-touch-icon" sizes="57x57" href="images/ico/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="images/ico/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="images/ico/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="images/ico/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="images/ico/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/images/ico/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="images/ico/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/ico/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="images/ico/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/ico/favicon-16x16.png">
-	<link rel="icon" type="image/x-icon" href="/images/ico/favicon.ico">
-	<link rel="manifest" href="images/ico/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="images/ico/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-			
-	<!-- Google tag (gtag.js) -->
-	<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YF1TS3WD9S"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		
-		gtag('config', 'G-YF1TS3WD9S');
-	</script>
-		
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-955539851"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <link rel="preload" as="image" href="images/hero/index_bg.webp">
 
-  gtag('config', 'AW-955539851');
-</script>
-		
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-THBJMSZV');</script>
-<!-- End Google Tag Manager -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+	
+    <meta name="title" content="AirenSoft">
+    <meta name="description" content="Media Technology Experts Group. Developers of OvenMediaEngine and OvenMediaEngine Enterprise.">
+    <meta name="keywords" content="airensoft, airen, ovenmediaengine, ome, ovenmediaengine enterprise, ome enterprise, ovenplayer, ovenlivekit, low latency streaming, sub second latency streaming, ultra low latency streaming, webrtc streaming, llhls streaming, ll-hls streaming, srt streaming, open source streaming server">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://airensoft.com/">
 
-<!-- Google Consent Mode-->
-<script data-cookieconsent="ignore">
-	window.dataLayer = window.dataLayer || [];
-	function gtag() {
-		dataLayer.push(arguments);
-	}
-	gtag("consent", "default", {
-		ad_personalization: "denied",
-		ad_storage: "denied",
-		ad_user_data: "denied",
-		analytics_storage: "denied",
-		functionality_storage: "denied",
-		personalization_storage: "denied",
-		security_storage: "granted",
-		wait_for_update: 500,
-	});
-	gtag("set", "ads_data_redaction", true);
-	gtag("set", "url_passthrough", false);
-</script>
-<!-- End Google Consent Mode-->
-		
-<!-- Cookiebot CMP-->
-	<script
-		id="Cookiebot"
-		src="https://consent.cookiebot.com/uc.js"
-		data-cbid="dcd64d7e-3ca2-4039-8c6c-759a3286d6e9"
-		data-blockingmode="auto"
-		type="text/javascript"
-	></script>
-<!-- End Cookiebot CMP -->
-		
-	<!-- CSS -->
-	<link href="dist/css/bootstrap.css" rel="stylesheet">
-	<script type="text/javascript" src="dist/js/bootstrap.bundle.js"></script>
-	</head>
-	
-	<body>
-	
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THBJMSZV"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-		
-<!--
-	<div class="preloader-wrapper">
-		<div class="spinner-border text-light">
-			<span class="visually-hidden">Loading...</span>
-		</div>
-    </div>
-	
--->
-<!--	<top>-->
-		<nav class="navbar navbar-expand-lg navbar-white bg-white py-3 border-bottom sticky-md-top shadow-sm bg-opacity-75" aria-label="AirenSoft Navigation" id="AirenNav">
-			<div class="container">				
-				<a href="index.html" class="navbar-brand d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
-					<img src="images/airen_ci/02_Airen_Letter_K.webp" width="auto" height="32" alt="AirenSoft"></a>
-				
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#AirenToggle" aria-controls="AirenToggle" aria-expanded="false" aria-label="Toggle">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				
-				<div class="collapse navbar-collapse justify-content-md-end" id="AirenToggle">
-				<ul class="nav nav-pills">
-					<li class="nav-item fw-semibold px-1"><a href="ome.html" class="nav-link">OvenMediaEngine</a></li>
-					<li class="nav-item fw-semibold px-1"><a href="ome-enterprise.html" class="nav-link">OvenMediaEngine Enterprise</a></li>
-					<li class="nav-item fw-semibold px-1"><a href="https://medium.com/@OvenMediaEngine" class="nav-link" target="_blank" rel="noopener">AirenBlog</a></li>
-					<li class="nav-item fw-semibold px-1"><a href="company.html" class="nav-link">Company</a></li>
-					<li class="nav-item fw-semibold px-1"><a href="contact.html" class="nav-link">Contact</a></li>
-				</ul>
-			</div>
-			</div>
-		</nav>
-		<div class="divider"></div>
-		
-<!--	<product>-->
-		<div id="AirenCarousel" class="carousel slide" data-bs-ride="carousel">
-			<div class="carousel-indicators">
-				<button type="button" data-bs-target="#AirenCarousel" data-bs-slide-to="0" class="active bg-gradient mb-3" aria-current="true" aria-label="Slide 1"></button>
-				<button type="button" data-bs-target="#AirenCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<!--				<button type="button" data-bs-target="#AirenCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>-->
-			</div>
-			
-			<div class="carousel-inner col-lg-10 mx-auto">
-				
-			<div class="carousel-item active" data-bs-interval="2400">
-				<svg class="bd-placeholder-img" width="100%" height="360" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="110%" fill="#ee6f2a" stroke="#ee6f2a" stroke-linecap="square"/></svg>
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://airensoft.com/">
+    <meta property="og:title" content="AirenSoft | Media Technology Experts Group">
+    <meta property="og:description" content="Media Technology Experts Group. Developers of OvenMediaEngine and OvenMediaEngine Enterprise.">
+    <meta property="og:image" content="https://airensoft.com/images/og/og_airen.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="627">
+    <meta property="og:site_name" content="AirenSoft">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://airensoft.com/">
+    <meta property="twitter:title" content="AirenSoft | Media Technology Experts Group">
+    <meta property="twitter:description" content="Media Technology Experts Group. Developers of OvenMediaEngine and OvenMediaEngine Enterprise.">
+    <meta property="twitter:image" content="https://airensoft.com/images/og/og_airen.png">
 
+    <link rel="apple-touch-icon" sizes="57x57" href="images/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/ico/favicon-16x16.png">
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="manifest" href="images/ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#0d0d0d">
+
+    <script data-cookieconsent="ignore">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag("consent", "default", {
+            ad_personalization: "denied",
+            ad_storage: "denied",
+            ad_user_data: "denied",
+            analytics_storage: "denied",
+            functionality_storage: "denied",
+            personalization_storage: "denied",
+            security_storage: "granted",
+            wait_for_update: 500,
+        });
+        gtag("set", "ads_data_redaction", true);
+        gtag("set", "url_passthrough", false);
+    </script>
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="dcd64d7e-3ca2-4039-8c6c-759a3286d6e9" data-blockingmode="auto" type="text/javascript" async></script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-THBJMSZV');</script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YF1TS3WD9S"></script>
+    <script>
+        gtag('js', new Date());
+        gtag('config', 'G-YF1TS3WD9S');   // GA4
+        gtag('config', 'AW-955539851');   // Google Ads
+    </script>
+</head>
+
+<body class="snap-scrolling">
+
+    <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
-          <a href="ome.html" class="unstyled-link"><div class="carousel-caption d-block">
-			  <h1 class="display-4 fw-bold text-white col-lg-10 mx-auto">OvenMediaEngine</h1>
-			  <p class="fs-5 mb-5 text-white fw-light fst-italic col-lg-10 mx-auto">"Open-Source and Fully-Featured Sub-Second Latency Live Streaming Server"</p>
-			  <p><a class="btn btn-lg btn-airen2 btn-fix-size-280 mx-auto fw-semibold bg-gradient fs-5 mb-3" href="ome.html">Learn more</a></p>
-			  </div></a>
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+				<img src="images/airen_ci/Airen-logo-w.svg" alt="AirenSoft">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <div class="toggler-icon-bar"></div>
+                <div class="toggler-icon-bar"></div>
+                <div class="toggler-icon-bar"></div>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="ome.html">OvenMediaEngine</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ome-enterprise.html">OvenMediaEngine Enterprise</a></li>
+<!--                    <li class="nav-item"><a class="nav-link" href="usecase.html">Use Cases</a></li>-->
+                    <li class="nav-item"><a class="nav-link" href="https://medium.com/@OvenMediaEngine" target="_blank">AirenBlog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="company.html">Company</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-				
-      <div class="carousel-item" data-bs-interval="2400">
-        <svg class="bd-placeholder-img" width="100%" height="360" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#ee6f2a" stroke="#ee6f2a" stroke-linecap="square"/></svg>
-
-        <div class="container">
-          <a href="ome-enterprise.html" class="unstyled-link"><div class="carousel-caption d-block">
-            <h1 class="display-4 fw-bold text-white col-lg-10 mx-auto">OvenMediaEngine Enterprise</h1>
-			  <p class="fs-5 mb-5 text-white fw-light fst-italic col-lg-10 mx-auto">"The Tailored Live Streaming Server, built to be fine-tuned for your needs"</p>
-			  <p><a class="btn btn-lg btn-airen2 btn-fix-size-280 mx-auto fw-semibold bg-gradient fs-5 mb-3" href="ome-enterprise.html">Learn more</a></p>
-			  </div></a>
+    </nav>
+	
+    <section id="hero-section" class="hero-bg-index full-page-section d-flex align-items-center position-relative text-center delay-100">  
+        <div class="hero-overlay"></div>
+        <div class="container position-relative z-1">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="hero-badge mb-4 px-4 reveal-up mx-auto fw-bold small">Sub-Second Live Streaming Solution</div>
+                </div>
+                <div class="col-lg-12">
+                    <h1 class="display-1 fw-bold text-white mb-4 lh-tight reveal-up">
+                        <span class="text-gradient">Streaming Server,<br>Tailored for You</span>
+                    </h1>
+                    <p class="lead text-sub mb-5 reveal-up delay-200 col-lg-8 mx-auto">OvenMediaEngine<span class="d-none d-sm-inline">, from the open-source version to its Enterprise edition,</span> lets you deploy, control, and fine-tune sub-second streaming for your unique needs.</p>
+                </div>
+            </div>
         </div>
-      </div>
-				
-<!--
-      <div class="carousel-item" data-bs-interval="3600">
-        <svg class="bd-placeholder-img" width="100%" height="400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#ee6f2a" stroke="#ee6f2a" stroke-linecap="square"/></svg>
-      </div>
-    </div>
--->
+        <div class="scroll-indicator d-none d-lg-flex">
+            <div class="mouse"><div class="wheel"></div></div>
+            <div class="arrow-scroll"><span></span><span></span><span></span></div>
+        </div>
+    </section>  
+    
+    <section class="full-page-section d-flex flex-column position-relative">
+        <div class="flex-grow-1 bg-surface d-flex align-items-center justify-content-center py-5 product-top">
+            <div class="container text-center reveal-up">
+                <span class="badge bg-brand text-dark mb-3 px-3 py-2 rounded-pill fw-bold">The Tailored Live Streaming Solution</span>
+                <h2 class="display-4 fw-bold text-white mb-3">OvenMediaEngine <span class="text-brand">Enterprise</span></h2>
+                <p class="lead text-sub mb-5 col-lg-8 mx-auto">An installable live streaming server that lets you design, fine-tune, and scale real-time streaming exactly the way your business demands.</p>
+                <a class="btn btn-company-outline px-5" href="ome-enterprise.html">Explore Enterprise Edition</a>               
+            </div>
+        </div>
+        
+        <div class="flex-grow-1 bg-body d-flex align-items-center py-5 product-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-center w-100 mb-4 reveal-up">
+                    <span class="badge bg-bi-yellow text-dark px-3 py-2 rounded-pill fw-bold">Open-Source Project</span>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-4 col-12 reveal-up delay-100">
+                        <div class="p-4 text-center h-100 hover-card2 border border-lighter bg-body position-relative">
+                            <img src="images/airen_bi/OME_BI-W.webp" alt="OvenMediaEngine" class="product-bi-img mb-2">
+<!--                            <h5 class="text-white fw-bold mb-2">OvenMediaEngine</h5>-->
+                            <p class="text-sub small mb-4">Sub-Second Latency Live Streaming Server</p>
+                            <a href="ome.html" class="text-bi-yellow2 fw-bold text-decoration-none small stretched-link">Learn More &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 reveal-up delay-200">
+                        <div class="p-4 text-center h-100 hover-card2 border border-lighter bg-body position-relative">
+                            <img src="images/airen_bi/OP_BI-W.webp" alt="OvenPlayer" class="product-bi-img mb-2">
+<!--                            <h5 class="text-white fw-bold mb-2">OvenPlayer</h5>-->
+                            <p class="text-sub small mb-4">WebRTC &amp; LL-HLS Player for OvenMediaEngine</p>
+                            <a href="https://github.com/AirenSoft/OvenPlayer" target="_blank" class="text-bi-yellow2 fw-bold text-decoration-none small stretched-link">GitHub &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 reveal-up delay-300">
+                        <div class="p-4 text-center h-100 hover-card2 border border-lighter bg-body position-relative">
+                            <img src="images/airen_bi/OLK_BI-W.webp" alt="OvenLiveKit" class="product-bi-img mb-2">
+<!--                            <h5 class="text-white fw-bold mb-2">OvenLiveKit</h5>-->
+                            <p class="text-sub small mb-4">WebRTC Live Encoder for OvenMediaEngine</p>
+                            <a href="https://github.com/AirenSoft/OvenLiveKit-Web" target="_blank" class="text-bi-yellow2 fw-bold text-decoration-none small stretched-link">GitHub &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div class="scroll-indicator d-none d-lg-flex">
+            <div class="mouse"><div class="wheel"></div></div>
+            <div class="arrow-scroll"><span></span><span></span><span></span></div>
+        </div>
+    </section>
 
-<!--button-->
-    <button class="carousel-control-prev d-none d-sm-block" type="button" data-bs-target="#AirenCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+    <section class="full-page-section d-flex flex-column position-relative bg-black">
+        <div class="flex-grow-1 d-flex align-items-center py-5">
+            <div class="container">
+                <div class="row align-items-center gx-5">
+                    <div class="col-lg-5 reveal-up text-center text-lg-start mb-5 mb-lg-0">
+                        <h2 class="h2 fw-bold text-white mb-3"><span class="text-gradient">What is<br>Sub-Second Latency?</span></h2>
+                        <p class="lead text-sub mb-4">Reducing the "Glass-to-Glass" delay from 10s+ to <strong class="text-white">under 1s</strong> allows for real-time interaction.</p>
+                        <a href="latency.html" class="btn btn-sm btn-secondary-outline rounded-pill px-5">Tech Deep Dive &rarr;</a>
+                    </div>
+                    <div class="col-lg-7 reveal-up delay-100">
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between mb-2"><span class="text-white fw-bold">OvenMediaEngine</span> <span class="text-bi-yellow fw-bold">&lt; 1s</span></div>
+                            <div class="d-flex align-items-center">
+                                <i class="ph ph-camera glass-icon me-2"></i>
+                                <div class="race-container"><div class="race-bar race-fast"></div></div>
+                                <i class="ph ph-monitor glass-icon ms-2"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="d-flex justify-content-between mb-2"><span class="text-sub">Other Solutions</span> <span class="text-sub">6s ~ 10s+</span></div>
+                            <div class="d-flex align-items-center">
+                                <i class="ph ph-camera glass-icon me-2"></i>
+                                <div class="race-container"><div class="race-bar race-slow"></div></div>
+                                <i class="ph ph-monitor glass-icon ms-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex-grow-1 bg-surface d-flex align-items-center py-5">
+            <div class="container">
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-4 reveal-up">
+                    <div class="mb-3 mb-md-0">
+                        <h3 class="fw-bold text-white mb-1">Powering Interactive Live Services</h3>
+                        <p class="text-sub small mb-0">Industry leaders rely on OvenMediaEngine Enterprise for critical services.</p>
+                    </div>
+<!--                    <a href="usecase.html" class="btn btn-sm btn-brand-outline rounded-pill px-5 d-none d-md-block">View All Cases &rarr;</a>-->
+                </div>
+                <div class="row g-2 g-md-3">
+                    <div class="col-6 col-md-3 reveal-up delay-100">
+<!--                        <a href="usecase.html#commerce" class="text-decoration-none">-->
+                            <div class="p-3 p-md-4 rounded bg-body border border-darker text-center h-100 hover-card2">
+                                <i class="ph ph-shopping-cart fs-2 text-bi-yellow mb-2"></i><br>
+                                <h7 class="text-white mb-0">Live Commerce</h7>
+                            </div>
+<!--                        </a>-->
+                    </div>
+					<div class="col-6 col-md-3 reveal-up delay-200">
+<!--                        <a href="usecase.html#igaming" class="text-decoration-none">-->
+                            <div class="p-3 p-md-4 rounded bg-body border border-darker text-center h-100 hover-card2">
+                                <i class="ph ph-spade fs-2 text-bi-yellow mb-2"></i><br>
+                                <h7 class="text-white mb-0">iGaming</h7>
+                            </div>
+<!--                        </a>-->
+                    </div>
+                    <div class="col-6 col-md-3 reveal-up delay-300">
+<!--                        <a href="usecase.html#sports" class="text-decoration-none">-->
+                            <div class="p-3 p-md-4 rounded bg-body border border-darker text-center h-100 hover-card2">
+                                <i class="ph ph-trophy fs-2 text-bi-yellow mb-2"></i><br>
+                                <h7 class="text-white mb-0">Live Sports</h7>
+                            </div>
+<!--                        </a>-->
+                    </div>
+					<div class="col-6 col-md-3 reveal-up delay-200">
+<!--                        <a href="usecase.html#ott" class="text-decoration-none">-->
+                            <div class="p-3 p-md-4 rounded bg-body border border-darker text-center h-100 hover-card2">
+                                <i class="ph ph-monitor-play fs-2 text-bi-yellow mb-2"></i><br>
+                                <h7 class="text-white mb-0">OTT Live</h7>
+                            </div>
+<!--                        </a>-->
+                    </div>
+                    <div class="col-6 col-md-3 reveal-up delay-400">
+<!--                        <a href="usecase.html#cctv" class="text-decoration-none">-->
+                            <div class="p-3 p-md-4 rounded bg-body border border-darker text-center h-100 hover-card2">
+                                <i class="ph ph-security-camera fs-2 text-bi-yellow mb-2"></i><br>
+                                <h7 class="text-white mb-0">CCTV</h7>
+                            </div>
+<!--                        </a>-->
+                    </div>
+					<div class="col-6 col-md-3 reveal-up delay-400">
+<!--                        <a href="usecase.html#entertainment" class="text-decoration-none">-->
+                            <div class="p-3 p-md-4 rounded bg-body border border-darker text-center h-100 hover-card2">
+                                <i class="ph ph-microphone-stage fs-2 text-bi-yellow mb-2"></i><br>
+                                <h7 class="text-white mb-0">Entertainment</h7>
+                            </div>
+<!--                        </a>-->
+                    </div>
+					<div class="col-6 col-md-3 reveal-up delay-400">
+<!--                        <a href="usecase.html#acution" class="text-decoration-none">-->
+                            <div class="p-3 p-md-4 rounded bg-body border border-darker text-center h-100 hover-card2">
+                                <i class="ph ph-gavel fs-2 text-bi-yellow mb-2"></i><br>
+                                <h7 class="text-white mb-0">Live Auction</h7>
+                            </div>
+<!--                        </a>-->
+                    </div>
+					<div class="col-6 col-md-3 reveal-up delay-400">
+<!--                        <a href="usecase.html" class="text-decoration-none">-->
+                            <div class="p-3 p-md-4 rounded bg-body border border-darker text-center h-100 hover-card2">
+                                <i class="ph ph-dots-three fs-2 text-bi-yellow mb-2"></i><br>
+                                <h7 class="text-white mb-0">And more</h7>
+                            </div>
+<!--                        </a>-->
+                    </div>
+                </div>
+                <div class="row mt-4 d-none">
+                    <div class="col-12 text-center d-md-none">
+                        <a href="usecase.html" class="btn btn-sm btn-brand-outline rounded-pill px-5">View All Cases &rarr;</a>
+                    </div>
+                </div>              
+            </div>          
+        </div>
+		<div class="scroll-indicator d-none d-lg-flex">
+            <div class="mouse"><div class="wheel"></div></div>
+            <div class="arrow-scroll"><span></span><span></span><span></span></div>
+        </div>
+    </section>
+    
+	<section class="full-page-section d-flex flex-column align-items-center bg-surface border-top border-darker position-relative">
+		<div class="w-100 py-5">
+			<div class="container"><div class="d-flex justify-content-between align-items-end mb-4 reveal-up">
+                <div>
+                    <h2 class="fw-bold text-white mb-1">AirenBlog</h2>
+                    <p class="text-sub small mb-0">Discover the research and ideas driving our streaming technology.</p>
+                </div>
+				<a href="https://medium.com/@OvenMediaEngine" target="_blank" class="btn btn-sm btn-secondary-outline rounded-pill d-none d-md-block">Read More &rarr;</a>
+				</div>
+				<div id="blog-grid" class="row g-3 g-md-4 mobile-horizontal-scroll">
+					<div class="col-12 text-center text-sub py-5"><div class="spinner-border text-primary mb-3" role="status"></div></div>
+				</div>
+			</div>
+		</div>
+		<div class="scroll-indicator d-none d-lg-flex">
+            <div class="mouse"><div class="wheel"></div></div>
+            <div class="arrow-scroll"><span></span><span></span><span></span></div>
+        </div>
+    </section>
+    
+    <section class="full-page-section d-flex flex-column bg-black footer-section pb-0-mobile">
+        <div class="d-flex align-items-center justify-content-center py-5 bg-gradient-rev">
+            <div class="container text-center reveal-up">
+                <h2 class="h1 fw-bold text-white mb-3">AirenSoft</h2>
+                <p class="lead text-sub mb-4 col-lg-8 mx-auto">For more than 15 years, we have been immersed in media technology R&amp;D<span class="d-none d-sm-inline">, with the last 6 years focused exclusively on advancing sub-second latency streaming</span>.</p>
+                <a href="company.html" class="btn btn-company-outline rounded-pill px-5 mb-4">About Company</a>
+            </div>
+        </div>
+        
+        <div class="py-5 bg-surface d-none">
+            <div class="container text-center reveal-up delay-100">
+                <h4 class="fw-bold text-white mb-3">Stay in the loop</h4>
+                <form class="d-flex gap-2 justify-content-center mt-3">
+                    <input type="email" class="form-control bg-dark border-secondary small" placeholder="Enter your email" style="max-width: 300px;">
+                    <button type="submit" class="btn btn-sm btn-primary-brand small">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <footer class="border-top border-darker">
+            <div class="container mt-5">
+                <div class="row g-5 justify-content-between">
+                    <div class="col-12 col-lg-4 address-col">
+						<img src="images/airen_ci/Airen-footer.svg" alt="AirenSoft">
+                        <div class="address-compact">
+                            <p>#1203, 157, Yangpyeong-ro, Yeongdeungpo-gu,<br>Seoul, Republic of Korea</p>
+                            <p>T. +82-2-6378-5227 &nbsp;|&nbsp; F. +82-2-6378-5228</p>
+                            <p>contact@airensoft.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-8 d-none d-md-block">
+                        <div class="d-flex justify-content-between">
+                            <div class="footer-col">
+                                <h6 class="footer-heading">Products</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="ome.html" class="footer-link">OvenMediaEngine</a></li>
+                                    <li><a href="ome-enterprise.html" class="footer-link">OvenMediaEngine Enterprise</a></li>
+                                    <li><a href="ome.html#op" target="_blank" class="footer-link">OvenPlayer</a></li>
+                                    <li><a href="ome.html#olk" target="_blank" class="footer-link">OvenLiveKit</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h6 class="footer-heading">Resources</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="https://github.com/AirenSoft" target="_blank" class="footer-link">GitHub</a></li>
+<!--                                    <li><a href="usecase.html" class="footer-link">Use Cases</a></li>-->
+                                    <li><a href="latency.html" class="footer-link">Tech: Low Latency</a></li>
+                                    <li><a href="https://medium.com/@OvenMediaEngine" target="_blank" class="footer-link">AirenBlog</a></li>
+                                </ul>
+                            </div>
+							<div class="footer-col">
+                                <h6 class="footer-heading">Docs</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="https://docs.ovenmediaengine.com/" target="_blank" class="footer-link">OME Guide</a></li>
+                                    <li><a href="https://docs.enterprise.ovenmediaengine.com/" target="_blank" class="footer-link">OME-E Guide</a></li>
+									<li><a href="https://docs.ovenplayer.com/" target="_blank" class="footer-link">OP Guide</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h6 class="footer-heading">Company</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="company.html" class="footer-link">About Us</a></li>
+                                    <li><a href="contact.html" class="footer-link">Contact</a></li>
+									<li><a href="agplv3.html" class="footer-link">License Compliance</a></li>
+									<li><a href="eula.html" class="footer-link">EULA</a></li>
+                                </ul>
+                            </div>
+							<div class="footer-col">
+                                <h6 class="footer-heading">Social</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="https://www.linkedin.com/company/AirenSoft" target="_blank" class="footer-link">LinkedIn</a></li>
+                                    <li><a href="https://x.com/OvenMediaEngine" target="_blank" class="footer-link">X (Twitter)</a></li>
+                                    <li><a href="https://www.reddit.com/r/OvenMediaEngine" target="_blank" class="footer-link">Reddit</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="border-top border-darker mt-3 pt-2 text-center">
+                    <p class="copyright-text">Copyright &copy; AirenSoft Co., Ltd. All rights reserved.</p>
+				</div>
+            </div>
+        </footer>
+    </section>
+    
+    <button type="button" class="btn-scroll-top" id="btnScrollTop" aria-label="Scroll to Top">
+        <i class="ph ph-arrow-up text-white fs-4"></i>
     </button>
-			
-    <button class="carousel-control-next d-none d-sm-block" type="button" data-bs-target="#AirenCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-	
-	<!--<explain>-->
-		<div class="text-secondary px-4 py-4 text-center bg-gradient" style="background-color:#1a1a1a;">
-		<div class="py-5">
-			<div class="container">
-			<h2 class="mx-auto fw-bold text-airen2">Install it like software. Shape it like your own product.</h2>
-							<p class="fs-5 mb-5 col-lg-9 mx-auto text-white-50 fw-light">OvenMediaEngine Enterprise is an installable live streaming server built to be fine-tuned in your own environment and bussiness, so you can adjust everything that matters to your service and get a tailored live streaming server instead of a one-size-fits-all solution.</p>
-				<div class="d-grid gap-2 d-sm-flex mx-auto justify-content-center">
-			<p><a class="btn btn-airen3 btn-fix-size-280 btn-lg fw-semibold" href="ome-enterprise.html">Learn more about OME-E</a></p>
-				</div>
-				</div>
-			</div>
-		</div>
-	
-	<div class="divider"></div>
-	
-	<div class="text-secondary px-4 py-4 text-center bg-light2 text-bg-light bg-gradient">
-		<div class="py-4">
-			<div class="container">
-			<h2 id="what-latency" class="mx-auto fw-bold text-dark anchor-hack">What is Sub-Second Latency Streaming?</h2>
-							<p class="fs-5 mb-5 col-lg-9 mx-auto text-black-75 fw-light">In legacy streaming, a technology that reduces the delay of 6 to 15 seconds until the screen sent by the streamer reaches the viewer to less than 1 second is called sub-second latency streaming.</p>
-				<div class="d-grid gap-2 d-sm-flex mx-auto justify-content-center">
-					<a href="latency.html">
-						<button type="button" class="btn btn-product-bk btn-lg btn-fix-size-280 fw-semibold">Read more</button></a>
-				</div>
-				</div>
-			</div>
-		</div>
-	
-<!--	<blog>-->
-		<div class="text-secondary px-4 py-5 align-items-center text-center">
-			<h2 id="airenblog" class="fw-bold mt-4 mx-auto text-dark anchor-hack anchor-hack anchor-copy">AirenBlog</h2>	
-			
-			<div class="album py-4 bg-white">
-				  <div class="container col-lg-9">				 
-					  
-					  <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-2 align-content-top">
-						  
-						  <div class="col">
-							  <div class="card shadow-sm mb-1">
-								  <a href="https://medium.com/@OvenMediaEngine/low-latency-hls-the-era-of-flexible-low-latency-streaming-ec675aa61378" target="_blank" rel="noopener" class="text-decoration-none">
-									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*o55HKF96EEBHGig1_ghgVQ.webp" width="100%" height="200" alt="OvenMediaEngine: Getting Started with OME Docker Launcher" style="object-fit:cover;">			  
-									  
-									  <div class="card-body">
-										  <h5 class="card-title py-2 mb-3 d-inline-block text-truncate" style="max-width: 100%;">[3/3] LL-HLS: The Era of Flexible Low-Latency Streaming</h5>
-										  </a>
-									  <div class="d-flex justify-content-between align-items-center">
-										  <small class="text-muted">OvenMediaEngine Team</small>
-										  <small class="text-muted">Jan 13, 2025</small>
-									  </div>
-									  </div>
-							  </div>
-						  </div>
-						  
-						  <div class="col">
-							  <div class="card shadow-sm mb-1">
-								  <a href="https://medium.com/@OvenMediaEngine/rethinking-hls-is-it-possible-to-achieve-low-latency-streaming-with-hls-9d00512b3e61" target="_blank" rel="noopener" class="text-decoration-none">
-									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*QTfw5SNqrP1WBG6TEADoug.webp" width="100%" height="200" alt="OvenMediaEngine: Getting Started with OME Docker Launcher" style="object-fit:cover;">			  
-									  
-									  <div class="card-body">
-										  <h5 class="card-title py-2 mb-3 d-inline-block text-truncate" style="max-width: 100%;">[2/3] HLS: Is it Possible to Achieve Low-Latency Streaming with HLS?</h5>
-										  </a>
-									  <div class="d-flex justify-content-between align-items-center">
-										  <small class="text-muted">OvenMediaEngine Team</small>
-										  <small class="text-muted">Jan 13, 2025</small>
-									  </div>
-									  </div>
-							  </div>
-						  </div>
-						  
-						  <div class="col">
-							  <div class="card shadow-sm mb-5">
-								  <a href="https://medium.com/@OvenMediaEngine/webrtc-a-new-paradigm-for-real-time-web-communication-1642a884a4c1" target="_blank" rel="noopener" class="text-decoration-none">
-									  <img class="bd-placeholder-img card-img-top" src="https://miro.medium.com/max/720/1*Tz1I0NhSCeKPb_TKABWOqQ@2x.webp" width="100%" height="200" alt="OvenMediaEngine: Getting Started with OME Docker Launcher" style="object-fit:cover;">			  
-									  
-									  <div class="card-body">
-										  <h5 class="card-title py-2 mb-3 d-inline-block text-truncate" style="max-width: 100%;">[1/3] WebRTC: A New Paradigm for Real-Time Web Communication</h5>
-										  </a>
-									  <div class="d-flex justify-content-between align-items-center">
-										  <small class="text-muted">OvenMediaEngine Team</small>
-										  <small class="text-muted">Nov 15, 2024</small>
-									  </div>
-									  </div>
-							  </div>
-						  </div>
-						  </div>
-						  
-					  </div>
-						  <div class="d-grid gap-2 d-sm-flex mx-auto justify-content-center">
-							  <a href="https://medium.com/@OvenMediaEngine" target="_blank" rel="noopener">
-								  <button type="button" class="btn btn-outline-airen2 btn-fix-size-280 btn-lg fw-semibold">View more</button></a>
-						  </div>
-				  </div>
-			</div>
-		</div>
-	
-<!--	<about>-->
-	<div class="divider"></div>
-	
-		<div class="text-secondary px-4 py-4 text-center bg-gradient" style="background-color:#ffad33;">
-			<div class="py-5">
-				<div class="container">
-				<h2 id="about" class="col-lg-9 mx-auto fw-bold text-white">AirenSoft</h2>
-				<p class="fs-5 mb-5 col-lg-9 mx-auto text-white fw-light">We are a group of media technology experts with 15 years of experience, devoted to research and development. For the past 6 years, we've focused on sub-second latency streaming.</p>
-					<div class="d-grid gap-2 d-sm-flex mx-auto justify-content-center">
-						<a href="company.html">
-						<button type="button" class="btn btn-airen3 btn-fix-size-280 btn-lg fw-semibold">Learn more</button></a>
-					</div>
-				</div>
-			</div>
-		</div>
-						  
-	<div class="nav nav-dark bg-dark">
-		<div class="container">
-			<div class="py-3 my-4" aria-label="AirenSoft Footer">
-				<ul class="nav justify-content-center border-bottom border-light pb-3 mb-3 border-opacity-10">
-					<li class="nav-item"><a href="index.html" class="nav-link px-3 text-actived">Home</a></li>
-					<li class="nav-item"><a href="ome.html" class="nav-link px-3 text-footer">OvenMediaEngine</a></li>
-					<li class="nav-item"><a href="ome-enterprise.html" class="nav-link px-3 text-footer">OvenMediaEngine Enterprise</a></li>
-					<li class="nav-item"><a href="https://medium.com/@airensoft" class="nav-link px-3 text-footer" target="_blank" rel="noopener">AirenBlog</a></li>
-					<li class="nav-item"><a href="company.html" class="nav-link px-3 text-footer">Company</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link px-3 text-footer">Contact</a></li>		
-				</ul>
-				
-				<div class="container py-3 ms-2">
-					<small class="text-muted"><span class="fw-semibold">· Address:</span> <a class="text-reset text-decoration-none">#1203, Twenty First Valley, 157, Yangpyeong-ro, Yeongdeungpo-gu, Seoul, 07207 Republic of Korea</a></small><br>
-					<small class="text-muted"><span class="fw-semibold">· Tel:</span> <a href="tel:+822-6378-5227" class="text-reset text-decoration-none">+82-2-6378-5227</a></small><br>
-					<small class="text-muted"><span class="fw-semibold">· Fax:</span> <a class="text-reset text-decoration-none">+82-2-6378-5228</a></small><br>
-					<small class="text-muted"><span class="fw-semibold">· Email:</span> <a href="mailto:contact@airensoft.com" class="text-reset text-decoration-none">contact@airensoft.com</a></small>
-				</div>
-				
-				<div class="d-flex flex-column flex-sm-row justify-content-between py-2">
-					<p class="text-muted">Copyright&copy; AirenSoft Co., Ltd. All rights reserved.</p>
-					<ul class="list-unstyled d-flex">
-						<li class="ms-3"><a href="https://github.com/AirenSoft" target="_blank" rel="noopener"><img src="images/footer/github.webp" width="24" alt="GitHub"></a></li>
-						<li class="ms-3"><a href="https://x.com/OvenMediaEngine" target="_blank" rel="noopener"><img src="images/footer/twitter.webp" width="24" alt="X"></a></li>
-						<li class="ms-3"><a href="https://www.linkedin.com/company/AirenSoft" target="_blank" rel="noopener"><img src="images/footer/linkedin.webp" width="24" alt="LikedIn"></a></li>
-						<li class="ms-3"><a href="https://www.reddit.com/r/OvenMediaEngine" target="_blank" rel="noopener"><img src="images/footer/reddit.webp" width="24" alt="Reddit"></a></li>	
-						<li class="ms-3"><a href="https://medium.com/@OvenMediaEngine" target="_blank" rel="noopener"><img src="images/footer/medium.webp" width="24" alt="Medium"></a></li>			
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="copy-toast" class="copy-toast">✅ Link copied! Share it with your friends!</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

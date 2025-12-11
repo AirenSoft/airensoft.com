@@ -1,293 +1,433 @@
 <!doctype html>
-<html lang="en">
-	<head>
-		
-	<!-- Primary Meta Tags -->
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>AirenSoft | About Latency</title>
-	<meta name="title" content="AirenSoft | About Latency">
-	<meta name="description" content="What is Sub-Second Latency Streaming?">
-	<meta name="keywords" content="airensoft, airen, ovenmediaengine, oven media, oven media engine, ome, ovenplayer, oven player, oven media player, sub second latency streaming, sub second latency, ultra low latency streaming, ultra low latency, low latency streaming, low latency, llhls, low latency hls, webrtc, whip">
-	<meta property="robots" content="index">
-	<meta property="googlebot" content="index">
-		
-	<link rel="icon" href="https://airensoft.com/images/ico/android-icon-192x192.png?alt=media">
-	<link rel="preload" as="image" href="https://airensoft.com/images/og/og_ome.png?alt=media">
-		
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://airensoft.com/latency.html">
-	<meta property="og:title" content="AirenSoft | About Latency">
-	<meta property="og:description" content="What is Sub-Second Latency Streaming?">
-	<meta property="og:image" content="https://airensoft.com/images/og/og_ome.png">
-	<meta name="og:image:width" content="1200">
-	<meta name="og:image:height" content="627">	
-	<meta property="og:site_name" content="AirenSoft | About Latency">
-		
-	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="https://airensoft.com/latency.html">
-	<meta property="twitter:title" content="AirenSoft | About Latency">
-	<meta property="twitter:description" content="What is Sub-Second Latency Streaming?">
-	<meta property="twitter:image" content="https://airensoft.com/images/og/og_ome.png">	
-
-	<!-- Icons -->
-	<link rel="apple-touch-icon" sizes="57x57" href="images/ico/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="images/ico/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="images/ico/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="images/ico/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="images/ico/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/images/ico/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="images/ico/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/ico/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="images/ico/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/ico/favicon-16x16.png">
-	<link rel="icon" type="image/x-icon" href="/images/ico/favicon.ico">
-	<link rel="manifest" href="images/ico/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="images/ico/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-		
-	<!-- Google tag (gtag.js) -->
-	<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YF1TS3WD9S"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		
-		gtag('config', 'G-YF1TS3WD9S');
-	</script>
-		
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-955539851"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-955539851');
-</script>
-		
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-THBJMSZV');</script>
-<!-- End Google Tag Manager -->
-
-<!-- Google Consent Mode-->
-<script data-cookieconsent="ignore">
-	window.dataLayer = window.dataLayer || [];
-	function gtag() {
-		dataLayer.push(arguments);
-	}
-	gtag("consent", "default", {
-		ad_personalization: "denied",
-		ad_storage: "denied",
-		ad_user_data: "denied",
-		analytics_storage: "denied",
-		functionality_storage: "denied",
-		personalization_storage: "denied",
-		security_storage: "granted",
-		wait_for_update: 500,
-	});
-	gtag("set", "ads_data_redaction", true);
-	gtag("set", "url_passthrough", false);
-</script>
-<!-- End Google Consent Mode-->
-		
-<!-- Cookiebot CMP-->
-	<script
-		id="Cookiebot"
-		src="https://consent.cookiebot.com/uc.js"
-		data-cbid="dcd64d7e-3ca2-4039-8c6c-759a3286d6e9"
-		data-blockingmode="auto"
-		type="text/javascript"
-	></script>
-<!-- End Cookiebot CMP -->
-		
-	<!-- CSS -->
-	<link href="dist/css/bootstrap.css" rel="stylesheet">
-	<script type="text/javascript" src="dist/js/bootstrap.bundle.js"></script>
-	</head>
-
-	<body>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>AirenSoft | Sub-Second Latency</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 	
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THBJMSZV"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+	<link rel="preload" as="image" href="images/hero/latency_bg.webp">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <meta name="title" content="AirenSoft | Sub-Second Latency">
+    <meta name="description" content="Discover the technology behind Sub-Second Latency. From the limitations of HLS to the real-time capabilities of WebRTC in OvenMediaEngine.">
+    <meta name="keywords" content="sub second latency, low latency streaming, ultra low latency, webrtc streaming, ll-hls streaming, llhls streaming, srt streaming, whip streaming, whep streaming, streaming latency comparison, ovenmediaengine latency, ome latency, streaming latency, streaming delay, webrtc latency, ll-hls latency, llhls latency, hls latency, srt latency, rtsp latency, webrtc delay, ll-hls delay, llhls delay, hls delay, srt delay, rtsp delay">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://airensoft.com/latency.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://airensoft.com/latency.html">
+    <meta property="og:title" content="AirenSoft | Sub-Second Latency">
+    <meta property="og:description" content="Discover the technology behind Sub-Second Latency. From the limitations of HLS to the real-time capabilities of WebRTC in OvenMediaEngine.">
+    <meta property="og:image" content="https://airensoft.com/images/og/og_ome.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="627">
+    <meta property="og:site_name" content="AirenSoft">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://airensoft.com/latency.html">
+    <meta property="twitter:title" content="AirenSoft | Sub-Second Latency">
+    <meta property="twitter:description" content="Discover the technology behind Sub-Second Latency. From the limitations of HLS to the real-time capabilities of WebRTC in OvenMediaEngine.">
+    <meta property="twitter:image" content="https://airensoft.com/images/og/og_ome.png">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="images/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/ico/favicon-16x16.png">
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="manifest" href="images/ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#0d0d0d">
+
+    <script data-cookieconsent="ignore">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag("consent", "default", {
+            ad_personalization: "denied",
+            ad_storage: "denied",
+            ad_user_data: "denied",
+            analytics_storage: "denied",
+            functionality_storage: "denied",
+            personalization_storage: "denied",
+            security_storage: "granted",
+            wait_for_update: 500,
+        });
+        gtag("set", "ads_data_redaction", true);
+        gtag("set", "url_passthrough", false);
+    </script>
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="dcd64d7e-3ca2-4039-8c6c-759a3286d6e9" data-blockingmode="auto" type="text/javascript" async></script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-THBJMSZV');</script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YF1TS3WD9S"></script>
+    <script>
+        gtag('js', new Date());
+        gtag('config', 'G-YF1TS3WD9S');   // GA4
+        gtag('config', 'AW-955539851');   // Google Ads
+    </script>
+</head>
+
+<body class="mx-auto">
+
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/airen_ci/Airen-logo-w.svg" alt="AirenSoft">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <div class="toggler-icon-bar"></div>
+                <div class="toggler-icon-bar"></div>
+                <div class="toggler-icon-bar"></div>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="ome.html">OvenMediaEngine</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ome-enterprise.html">OvenMediaEngine Enterprise</a></li>
+					<!--                    <li class="nav-item"><a class="nav-link" href="usecase.html">Use Cases</a></li>-->
+                    <li class="nav-item"><a class="nav-link" href="https://medium.com/@OvenMediaEngine" target="_blank">AirenBlog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="company.html">Company</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero-section" class="hero-bg-latency full-page-section d-flex align-items-center position-relative text-center delay-100">
+        <div class="hero-overlay"></div>
+        <div class="container position-relative z-1">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="hero-badge mb-4 px-4 reveal-up mx-auto fw-bold small">Technology Deep Dive</div>
+                </div>
+                <div class="col-lg-12">
+                    <h1 class="display-1 fw-bold text-white mb-4 lh-tight reveal-up delay-100">Real-Time is<br><span class="text-gradient">Not 10 Seconds Late.</span>
+                    </h1>
+                    <p class="lead text-sub mb-5 reveal-up delay-200 col-lg-8 mx-auto">In the era of live interaction, <strong>Live</strong> should mean <strong>Now</strong>.<br class="d-none d-md-block"> Understand why latency occurs and how we achieved Sub-Second Latency.</p>
+                </div>
+            </div>
+        </div>          
+        
+        <div class="scroll-indicator d-none d-lg-flex">
+            <div class="mouse"><div class="wheel"></div></div>
+            <div class="arrow-scroll"><span></span><span></span><span></span></div>
+        </div>
+    </section>
+
+    <section class="full-page-section d-flex flex-column position-relative bg-surface bg-gradient2">
+        <div class="w-100 flex-grow-1 d-flex align-items-center py-5">
+            <div class="container">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 mb-5 mb-lg-0 reveal-up">
+                        <div class="d-flex align-items-center gap-2 mb-3 text-warning">
+                            <i class="ph ph-question fs-4"></i>
+                            <span class="fw-bold text-uppercase small">The Problem</span>
+                        </div>
+                        <h2 class="display-4 fw-bold text-white mb-4">Why is your stream delayed?</h2>
+                        <p class="lead text-sub mb-4">Many people believe their live stream is happening in real-time, but they are actually watching the past.</p>
+                        <div class="p-4 rounded-4 bg-body border border-darker mb-4 shadow-lg">
+                            <h5 class="text-white mb-3 fw-bold"><i class="ph ph-film-strip text-sub me-2"></i>The "Chunk" Bottleneck</h5>
+                            <p class="text-sub fs-6 mb-0">Legacy protocols like HLS or DASH slice video into "Chunks" (segments) of 2~10 seconds. Players typically buffer 3 of these chunks to ensure stability.<br><br>
+								e.g.,<strong class="text-brand"> 3 Chunks × 10 Seconds = 30 Seconds Delay.</strong><br>This buffering creates a massive gap between the streamer and the viewer.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 reveal-up delay-100">
+                        <h4 class="text-white fw-bold mb-5 ps-lg-4">Latency Reality Check</h4>
+                        
+                        <div class="ps-lg-4">
+                            <div class="mb-5">
+                                <div class="d-flex justify-content-between mb-2">
+                                    <span class="text-sub fw-bold">HLS and DASH</span>
+                                    <span class="text-sub">6s ~ 10s+</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <i class="ph ph-camera glass-icon text-sub fs-4"></i>
+                                    <div class="race-container race-track flex-grow-1 mx-0">
+                                        <div class="race-bar bg-secondary" style="animation: race-fill 8s linear infinite;"></div>
+                                    </div>
+                                    <i class="ph ph-monitor glass-icon text-sub fs-4"></i>
+                                </div>
+                                <p class="small text-sub mt-2"><i class="ph ph-x-circle fs-5"></i> Passive viewing only. Impossible to have real-time chat.</p>
+                            </div>
+
+                            <div class="mb-5">
+                                <div class="d-flex justify-content-between mb-2">
+                                    <span class="text-white fw-bold">Low Latency HLS (LL-HLS)</span>
+                                    <span class="text-warning">2s ~ 4s</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <i class="ph ph-camera glass-icon text-bi-yellow fs-4"></i>
+                                    <div class="race-container race-track flex-grow-1 mx-0">
+                                        <div class="race-bar bg-bi-yellow" style="animation: race-fill 3s linear infinite;"></div>
+                                    </div>
+                                    <i class="ph ph-monitor glass-icon text-bi-yellow fs-4"></i>
+                                </div>
+                                <p class="small text-sub mt-2"><i class="ph ph-warning fs-5"></i> Improved, but still feels "slightly off" for live interaction.</p>
+                            </div>
+
+                            <div>
+                                <div class="d-flex justify-content-between mb-2">
+                                    <span class="text-gradient fw-bold">WebRTC and SRT</span>
+                                    <span class="text-primary fw-bold">&lt; 1 Second</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <i class="ph ph-camera glass-icon text-primary fs-4"></i>
+                                    <div class="race-container race-track flex-grow-1 mx-0">
+                                        <div class="race-bar bg-brand" style="animation: race-fill 0.5s linear infinite; box-shadow: 0 0 10px var(--company-primary);"></div>
+                                    </div>
+                                    <i class="ph ph-monitor glass-icon text-primary fs-4"></i>
+                                </div>
+                                <p class="small text-primary mt-2"><i class="ph ph-check-circle fs-5"></i> <strong>Sub-Second Latency.</strong> True real-time synchronization.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="full-page-section d-flex flex-column position-relative bg-black">
+        <div class="w-100 flex-grow-1 d-flex align-items-center py-5">
+            <div class="container">
+                <div class="text-center mb-5 reveal-up">
+                    <span class="badge bg-bi-yellow text-dark mb-3 px-3 py-2 rounded-pill fw-bold">Unlock Possibilities</span>
+                    <h2 class="display-4 fw-bold text-white mb-3"><span class="text-gradient2">What Can You Do with Zero Delay?</span></h2>
+                    <p class="lead text-sub col-lg-8 mx-auto">Latency close to zero means you can finally communicate naturally.</p>
+                </div>
+
+                <div class="row g-4 justify-content-center mobile-horizontal-scroll">
+                    <div class="col-lg-4 col-md-6 reveal-up delay-100">
+                        <div class="tech-card-pro p-4 p-md-5 p-pro bg-surface border border-darker h-100 text-center d-flex flex-column align-items-center">
+                            <div class="pro-icon-box mb-4 d-inline-flex align-items-center justify-content-center" style="--tech-icon: #0d0d0d; width: 80px; height: 80px;">
+                                <i class="ph ph-gavel fs-1 text-white"></i>
+                            </div>
+                            <h4 class="text-white fw-bold mb-3">Live Auction &amp; Commerce</h4>
+                            <p class="text-sub mb-0 flex-grow-1">Bids must happen instantly. A 5-second delay could mean losing a deal. Ensure fair, real-time bidding.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 reveal-up delay-200">
+                        <div class="tech-card-pro opensource p-4 p-md-5 p-pro bg-surface border border-darker h-100 text-center d-flex flex-column align-items-center">
+                            <div class="pro-icon-box mb-4 d-inline-flex align-items-center justify-content-center" style="--tech-icon: #0d0d0d; width: 80px; height: 80px;">
+                                <i class="ph ph-game-controller fs-1 text-warning"></i>
+                            </div>
+                            <h4 class="text-white fw-bold mb-3">iGaming &amp; Betting</h4>
+                            <p class="text-sub mb-0 flex-grow-1">Trust is built on visibility. Players need to see the card turn or the ball drop the moment it happens.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 reveal-up delay-300">
+                        <div class="tech-card-pro enterprise p-4 p-md-5 p-pro bg-surface border border-darker h-100 text-center d-flex flex-column align-items-center">
+                            <div class="pro-icon-box mb-4 d-inline-flex align-items-center justify-content-center" style="--tech-icon: #0d0d0d; width: 80px; height: 80px;">
+                                <i class="ph ph-chats-circle fs-1 text-primary"></i>
+                            </div>
+                            <h4 class="text-white fw-bold mb-3">Interactive Webinar</h4>
+                            <p class="text-sub mb-0 flex-grow-1">Q&amp;A sessions shouldn't be awkward. Have a natural conversation with thousands of viewers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="full-page-section d-flex flex-column position-relative bg-surface">
+        <div class="w-100 flex-grow-1 d-flex align-items-center py-5">
+            <div class="container">
+                <div class="row justify-content-center mb-5 reveal-up">
+                    <div class="col-lg-9 text-center">
+                        <div class="d-flex align-items-center justify-content-center gap-2 mb-3 text-warning">
+                            <i class="ph ph-cpu fs-4"></i>
+                            <span class="fw-bold text-uppercase small">Our Solution</span>
+                        </div>
+                        <h2 class="display-4 fw-bold text-white mb-3">Engineered for Sub-Second</h2>
+                        <p class="lead text-sub">AirenSoft’s mission is to democratize high-quality, ultra-low latency streaming.<br>We combined the best open-source protocols to create a powerful engine.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row g-4 mobile-horizontal-scroll">
+                    <div class="col-lg-4 reveal-up delay-100">
+							<div class="p-4 rounded h-100 hover-card5 d-flex flex-column card-glow">
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h3 class="h4 text-white fw-bold mb-0">WebRTC</h3>
+                                <i class="ph ph-globe fs-1 text-primary"></i>
+                            </div>
+                            <p class="text-sub mb-4 fs-6">The gold standard for real-time communication. We optimized WebRTC for <strong>one-to-many broadcasting</strong>, overcoming its traditional scaling limits.</p>
+                            <ul class="text-sub small list-unstyled mb-0 border-top border-darker pt-3">
+                                <li class="mb-2"><i class="ph ph-check text-primary me-2"></i><strong>Frame-based:</strong> Renders frames as soon as arrive.</li>
+                                <li class="mb-2"><i class="ph ph-check text-primary me-2"></i><strong>Sub-500ms Latency:</strong> Instant, interactive feedback.</li>
+                                <li><i class="ph ph-check text-primary me-2"></i><strong>No Plugins:</strong> Modern browser support.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 reveal-up delay-200">
+                        <div class="p-4 rounded h-100 hover-card5 d-flex flex-column card-glow glow-secondary">
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h3 class="h4 text-white fw-bold mb-0">LL-HLS</h3>
+                                <i class="ph ph-file-video fs-1 text-warning"></i>
+                            </div>
+                            <p class="text-sub mb-4 fs-6">Extended HLS protocol. With Chunked Transfer Encoding and HTTP/2, we cut typical HLS latency from tens of seconds down to about 2–3 seconds.</p>
+                            <ul class="text-sub small list-unstyled mb-0 border-top border-darker pt-3">
+                                <li class="mb-2"><i class="ph ph-check text-warning me-2"></i><strong>Firewall Friendly:</strong> HTTP/TCP based.</li>
+                                <li class="mb-2"><i class="ph ph-check text-warning me-2"></i><strong>HLS-Compatible:</strong> Works with existing HLS/CDN.</li>
+                                <li><i class="ph ph-check text-warning me-2"></i><strong>ABR Support:</strong> Seamless streaming quality.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 reveal-up delay-300">
+                        <div class="p-4 rounded h-100 hover-card5 d-flex flex-column card-glow glow-gray">
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h3 class="h4 text-white fw-bold mb-0">SRT</h3>
+                                <i class="ph ph-arrows-left-right fs-1 text-white"></i>
+                            </div>
+                            <p class="text-sub mb-4 fs-6">Quality in, quality out. We use SRT instead of aging RTMP to keep both ingress and egress stable, even over unreliable public networks or between sites.</p>
+                            <ul class="text-sub small list-unstyled mb-0 border-top border-darker pt-3">
+                                <li class="mb-2"><i class="ph ph-check text-white me-2"></i><strong>Reliable:</strong> End-to-end packet loss recover.</li>
+                                <li class="mb-2"><i class="ph ph-check text-white me-2"></i><strong>Low Jitter:</strong> Smooth input &amp; output stream.</li>
+                                <li><i class="ph ph-check text-white me-2"></i><strong>Modern Standard:</strong> Future-proof.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</section>
 	
-<!--	<top>-->
-		<nav class="navbar navbar-expand-lg navbar-white bg-white py-3 border-bottom sticky-md-top shadow-sm bg-opacity-75" aria-label="AirenSoft Navigation" id="AirenNav">
-			<div class="container">				
-				<a href="index.html" class="navbar-brand d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
-					<img src="images/airen_ci/02_Airen_Letter_K.webp" width="auto" height="32" alt="AirenSoft"></a>
+	<section class="full-page-section d-flex flex-column position-relative bg-black">
+        <div class="d-flex align-items-center justify-content-center py-5">
+            <div class="container py-4 text-center reveal-up">
+                <h2 class="fw-bold text-white mb-3">Ready to Go Real-Time?</h2>
+                <p class="lead text-sub fw-light mb-4 col-lg-9 mx-auto">Don't let latency hold your business back.</p>
 				
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#AirenToggle" aria-controls="AirenToggle" aria-expanded="false" aria-label="Toggle">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				
-				<div class="collapse navbar-collapse justify-content-md-end" id="AirenToggle">
-				<ul class="nav nav-pills">
-					<li class="nav-item fw-semibold px-1"><a href="ome.html" class="nav-link">OvenMediaEngine</a></li>
-					<li class="nav-item fw-semibold px-1"><a href="ome-enterprise.html" class="nav-link">OvenMediaEngine Enterprise</a></li>
-					<li class="nav-item fw-semibold px-1"><a href="https://medium.com/@OvenMediaEngine" class="nav-link" target="_blank" rel="noopener">AirenBlog</a></li>
-					<li class="nav-item fw-semibold px-1"><a href="company.html" class="nav-link">Company</a></li>
-					<li class="nav-item fw-semibold px-1"><a href="contact.html" class="nav-link">Contact</a></li>
-				</ul>
-			</div>
-			</div>
-	</nav>
-	
-		<div class="divider"></div>
+				<div class="d-flex gap-2 w-100 flex-wrap justify-content-center">
+					<a href="ome.html" class="btn btn-brand-outline flex-grow-1 flex-sm-grow-0" style="min-width: 240px;">OvenMediaEngine</a>
+					<a href="ome-enterprise.html" class="btn btn-company-outline flex-grow-1 flex-sm-grow-0" style="min-width: 240px;">OME Enterprise</a>
+                </div>
+            </div>
+        </div>
 		
-<!--	<header>-->
-		<div class="text-secondary px-4 py-4 text-center" style="background-color:#ee6f2a;">
-			<div class="py-5">
-				<h1 class="display-6 fw-bold text-white">What is Sub-Second Latency Streaming?</h1>
-			</div>
-	</div>
-	<div class="divider"></div>
-		
-<!--<explain>-->
-	<div class="container text-center mt-5">
-		<h3 id="why" class="fw-semibold py-3 mb-2 text-airen text-center col-lg-10 mx-auto anchor-hack">Why does latency occur during streaming?</h3>
-		<div class="mx-center text-center mb-2">
-			<p class="fs-6 mb-2 text-black-50 col-lg-10 mx-auto">There are many reasons. Latency from a video source for streaming accumulates through many sections of a system, but the most significant cause is chunk length created in Packaging because of the HLS and MPEG-DASH recommendation to maintain three segments of about 2 to 10 seconds. Thus, this results in about 6 to 30 seconds of latency.</p>
-			<div class="container col-lg-8 justify-content-sm-center text-center">
-				<img class="mb-2 img-fluid mx-auto" src="images/ome_screenshot/stream_flow.webp" alt="Streaming Flow" max-width="100%" height="auto">
-			</div>
-			<p class="fs-6 mb-5 text-black-50 col-lg-10 mx-auto">And the next significant reason is the buffering of devices such as Encoder, Ingest, Transcoding or Player. Buffering is required to solve frequent transmission interruptions due to network jitter, and latency increases with more buffering.</p>
-		</div>
-	</div>
-	
-	<div class="d-flex justify-content-center" style="height: 80px;">
-		<div class="vr"></div>
-	</div>
-	
-		<div class="container text-center mt-5">
-		<h3 id="what" class="fw-semibold py-3 mb-2 text-airen text-center col-lg-10 mx-auto anchor-hack">What is Sub-Second Latency Streaming?</h3>
-		<div class="mx-center text-center mb-2">
-		  <div class="container col-lg-8 justify-content-sm-center text-center">
-			<img class="mb-2 img-fluid mx-auto" src="images/ome_screenshot/stream_concept.webp" alt="Streaming Classification" max-width="100%" height="auto">
-			</div>
-			<p class="fs-6 mb-5 text-black-50 col-lg-10 mx-auto">Streaming with a latency range of 4 to 8 seconds is called Low Latency, and if the delay is less than 1 second, it is called Sub-Second Latency. However, the latency of streaming services that still compliant with the traditional method is still 8 to 30 seconds.</p>
-			</div>
-	</div>
-	
-	<div class="d-flex justify-content-center" style="height: 80px;">
-		<div class="vr"></div>
-	</div>
-	
-			<div class="container text-center mt-5">
-				<h3 id="how" class="fw-semibold py-3 mb-2 text-airen text-center col-lg-10 mx-auto anchor-hack">How can I build a service with Sub-Second Latency Streaming?</h3>
-				<div class="mx-center text-center mb-2">
-					<div class="container col-lg-8 justify-content-sm-center text-center">
-						<img class="mb-2 img-fluid mx-auto" src="images/ome_screenshot/stream_ome.webp" alt="OvenMediaEngine's role in Streaming FLow" max-width="100%" height="auto">
-					</div>
-					<p class="fs-6 mb-4 text-black-50 col-lg-10 mx-auto">It is difficult to implement a direct connection from Ingest to Player in Sub-Second Latency Streaming service. However, OvenMediaEngine (OME) is one system that achieves Sub-Second Latency from Ingest to Player. OME can receive RTMP, MPEG-TS, RTSP Pull/Push from the most popular encoders such as OvenLiveKit, OBS, XSplit, and more. And it supports sub-second latency streaming transmission using Low Latency HLS (LLHLS) and WebRTC.</p>
-				</div>
-					
-					<div class="mx-center text-center mb-2">
-					<div class="container col-lg-8 justify-content-sm-center text-center">
-						<img class="mb-2 img-fluid mx-auto" src="images/ome_screenshot/stream_op.webp" alt="OvenPlayer's role in Streaming FLow" max-width="100%" height="auto">
-					</div>
-					<p class="fs-6 mb-4 text-black-50 col-lg-10 mx-auto">OvenPlayer is the most optimized HTML5 player for OvenMediaEngine. It can stream using WebRTC, LLHLS, HLS, and RTMP. You can directly embed OvenPlayer into your web page by inserting a few lines of source code. In other words, OME and OvenPlayer have been developed so that anyone can use Sub-Second Latency Streaming using a simple setting without a separate system.</p>
-				</div>
-	
-						
-					<div class="mx-center text-center mb-2">
-					<div class="container col-lg-8 justify-content-sm-center text-center">
-						<img class="mb-2 img-fluid mx-auto" src="images/ome_screenshot/stream_olk.webp" alt="OvenLiveKit's role in Streaming FLow" max-width="100%" height="auto">
-					</div>
-					<p class="fs-6 mb-5 text-black-50 col-lg-10 mx-auto">Finally, if you want to build a sub-second latency streaming service on a mobile environment, you need OvenLiveKit, the most optimized mobile encoder for OvenMediaEngine. We uploaded OvenStreamEncoder, a sample app based on OvenLiveKit for Android, to Google Play. Please try testing with this. Our results show that in an optimized environment, streaming latency was less than five frames.</p>
-				</div>
-	</div>
+		<section class="full-page-section d-flex flex-column align-items-center bg-surface position-relative">
+        <div class="w-100 flex-grow-1 d-flex align-items-center py-5">
+            <div class="container"><div class="d-flex justify-content-between align-items-end mb-4 reveal-up">
+                <div>
+                    <h2 class="fw-bold text-white mb-1">AirenBlog</h2>
+                        <p class="text-sub small mb-0">From the AirenSoft Engineers.</p>
+                    </div>
+                    <a href="https://medium.com/@OvenMediaEngine" target="_blank" class="btn btn-sm btn-secondary-outline rounded-pill d-none d-md-block">Read More &rarr;</a>
+                </div>
+                <div id="blog-grid" class="row g-3 g-md-4 mobile-horizontal-scroll">
+                    <div class="col-12 text-center text-sub py-5"><div class="spinner-border text-primary mb-3" role="status"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
 			
-<!--	<demo>-->
-		<div class="text-secondary px-4 py-5 text-center bg-gradient" style="background-color:#ffad33;">
-				<h3 id="do" class="fw-semibold py-3 mb-3 text-white col-lg-10 mx-auto anchor-hack">What can I do with Sub-Second Latency Streaming?</h3>
+	<section class="full-page-section d-flex flex-column bg-black footer-section pb-0-mobile">
+        <div class="py-5 bg-surface border-bottom border-darker d-none">
+            <div class="container text-center reveal-up delay-100">
+                <h4 class="fw-bold text-white mb-3">Stay in the loop</h4>
+                <form class="d-flex gap-2 justify-content-center mt-3">
+                    <input type="email" class="form-control bg-dark border-secondary small" placeholder="Enter your email" style="max-width: 300px;">
+                    <button type="submit" class="btn btn-sm btn-primary-brand small">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    
+        <footer class="border-top border-darker">
+            <div class="container mt-5">
+                <div class="row g-5 justify-content-between">
+                    <div class="col-12 col-lg-4 address-col">
+                        <img src="images/airen_ci/Airen-footer.svg" alt="AirenSoft">
+                        <div class="address-compact">
+                            <p>#1203, 157, Yangpyeong-ro, Yeongdeungpo-gu,<br>Seoul, Republic of Korea</p>
+                            <p>T. +82-2-6378-5227 &nbsp;|&nbsp; F. +82-2-6378-5228</p>
+                            <p>contact@airensoft.com</p>
+                        </div>
+                    </div>
 
-			<div class="container">
-						<div class="row row-cols-1 row-cols-lg-5 gap-2 justify-content-center mb-4 mx-auto">
-							<div class="feature col bg-light bg-gradient bg-opacity-50 align-middle shadow rounded-5">
-								<p class="fs-6 text-airen fw-bolder pt-3">Sports Broadcasting</p></div>
-							<div class="feature col bg-light bg-gradient bg-opacity-50 align-middle shadow rounded-5">
-								<p class="fs-6 text-airen fw-bolder pt-3">iGaming</p></div>
-							<div class="feature col bg-light bg-gradient bg-opacity-50 align-middle shadow rounded-5">
-								<p class="fs-6 text-airen fw-bolder pt-3">Online Sportsbook</p></div>
-							<div class="feature col bg-light bg-gradient bg-opacity-50 align-middle shadow rounded-5">
-								<p class="fs-6 text-airen fw-bolder pt-3">Interactive Streaming</p></div>
-							<div class="feature col bg-light bg-gradient bg-opacity-50 align-middle shadow rounded-5">
-								<p class="fs-6 text-airen fw-bolder pt-3">Live Commerce</p></div>
-							<div class="feature col bg-light bg-gradient bg-opacity-50 align-middle shadow rounded-5">
-								<p class="fs-6 text-airen fw-bolder pt-3">CCTV/Monitoring</p></div>
-							<div class="feature col bg-light bg-gradient bg-opacity-50 align-middle shadow rounded-5">
-								<p class="fs-6 text-airen fw-bolder pt-3">Live on OTT</p></div>
-							<div class="feature col bg-light bg-gradient bg-opacity-50 align-middle shadow rounded-5">
-								<p class="fs-6 text-airen fw-bolder pt-3">Metaverse</p></div>
-							<div class="feature col bg-light bg-gradient bg-opacity-50 align-middle shadow rounded-5">
-								<p class="fs-6 text-airen fw-bolder pt-3">Webinar/Lecture</p></div>
-							<div class="feature col bg-light bg-gradient bg-opacity-50 align-middle shadow rounded-5">
-								<p class="fs-6 text-airen fw-bolder pt-3">Online Premiere</p></div>
-							<div class="feature col bg-light bg-gradient bg-opacity-50 align-middle shadow rounded-5">
-								<p class="fs-6 text-airen fw-bolder pt-3">Online Auction</p></div>
-							<div class="feature col bg-light bg-gradient bg-opacity-50 align-middle shadow rounded-5">
-								<p class="fs-6 text-airen fw-bolder pt-3">More</p></div>	
-						</div>
-					</div>
-			
-			<div class="container">
-			<div class="mx-center text-center mb-3">
-				<p class="fs-6 col-lg-10 mx-auto fw-light text-white mb-4">Latency close to zero seconds means that you can communicate with viewers through interactive streaming, gaming, stock trading, gambling, auctioning, home shopping, and more, all in real-time.  Anything previously impossible due to high latency can become a reality with Sub-Second Latency Streaming.</p>
-					<div class="d-lg-flex flex-lg-equal gap-2 mx-auto text-center justify-content-center mb-2">
-						<p><a class="btn btn-airen3 btn-lg btn-fix-size-280 fw-semibold" href="https://github.com/AirenSoft/OvenLiveKit-Web" target="_blank" rel="noopener">OvenLiveKit</a></p>
-						<p><a class="btn btn-airen3 btn-lg btn-fix-size-280 fw-semibold" href="https://github.com/airensoft/OvenMediaEngine" target="_blank" rel="noopener">OvenMediaEngine</a></p>
-						<p><a class="btn btn-airen3 btn-lg btn-fix-size-280 fw-semibold" href="https://github.com/AirenSoft/OvenPlayer" target="_blank" rel="noopener">OvenPlayer</a></p>
-						</div>
-				</div>
-			</div>
-	</div>
-				
-	<div class="nav nav-dark bg-dark">
-		<div class="container">
-			<div class="py-3 my-4" aria-label="AirenSoft Footer">
-				<ul class="nav justify-content-center border-bottom border-light pb-3 mb-3 border-opacity-10">
-					<li class="nav-item"><a href="index.html" class="nav-link px-3 text-footer">Home</a></li>
-					<li class="nav-item"><a href="ome.html" class="nav-link px-3 text-footer">OvenMediaEngine</a></li>
-					<li class="nav-item"><a href="ome-enterprise.html" class="nav-link px-3 text-footer">OvenMediaEngine Enterprise</a></li>
-					<li class="nav-item"><a href="https://medium.com/@airensoft" class="nav-link px-3 text-footer" target="_blank" rel="noopener">AirenBlog</a></li>
-					<li class="nav-item"><a href="company.html" class="nav-link px-3 text-footer">Company</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link px-3 text-footer">Contact</a></li>		
-				</ul>
-				
-				<div class="container py-3 ms-2">
-					<small class="text-muted"><span class="fw-semibold">· Address:</span> <a class="text-reset text-decoration-none">#1203, Twenty First Valley, 157, Yangpyeong-ro, Yeongdeungpo-gu, Seoul, 07207 Republic of Korea</a></small><br>
-					<small class="text-muted"><span class="fw-semibold">· Tel:</span> <a href="tel:+822-6378-5227" class="text-reset text-decoration-none">+82-2-6378-5227</a></small><br>
-					<small class="text-muted"><span class="fw-semibold">· Fax:</span> <a class="text-reset text-decoration-none">+82-2-6378-5228</a></small><br>
-					<small class="text-muted"><span class="fw-semibold">· Email:</span> <a href="mailto:contact@airensoft.com" class="text-reset text-decoration-none">contact@airensoft.com</a></small>
-				</div>
-				
-				<div class="d-flex flex-column flex-sm-row justify-content-between py-2">
-					<p class="text-muted">Copyright&copy; AirenSoft Co., Ltd. All rights reserved.</p>
-					<ul class="list-unstyled d-flex">
-						<li class="ms-3"><a href="https://github.com/AirenSoft" target="_blank" rel="noopener"><img src="images/footer/github.webp" width="24" alt="GitHub"></a></li>
-						<li class="ms-3"><a href="https://x.com/OvenMediaEngine" target="_blank" rel="noopener"><img src="images/footer/twitter.webp" width="24" alt="X"></a></li>
-						<li class="ms-3"><a href="https://www.linkedin.com/company/AirenSoft" target="_blank" rel="noopener"><img src="images/footer/linkedin.webp" width="24" alt="LikedIn"></a></li>
-						<li class="ms-3"><a href="https://www.reddit.com/r/OvenMediaEngine" target="_blank" rel="noopener"><img src="images/footer/reddit.webp" width="24" alt="Reddit"></a></li>	
-						<li class="ms-3"><a href="https://medium.com/@OvenMediaEngine" target="_blank" rel="noopener"><img src="images/footer/medium.webp" width="24" alt="Medium"></a></li>			
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="copy-toast" class="copy-toast">✅ Link copied! Share it with your friends!</div>
+                    <div class="col-12 col-lg-8 d-none d-md-block">
+                        <div class="d-flex justify-content-between">
+                            <div class="footer-col">
+                                <h6 class="footer-heading">Products</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="ome.html" class="footer-link">OvenMediaEngine</a></li>
+                                    <li><a href="ome-enterprise.html" class="footer-link">OvenMediaEngine Enterprise</a></li>
+                                    <li><a href="https://github.com/AirenSoft/OvenPlayer" target="_blank" class="footer-link">OvenPlayer</a></li>
+                                    <li><a href="https://github.com/AirenSoft/OvenLiveKit-Web" target="_blank" class="footer-link">OvenLiveKit</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h6 class="footer-heading">Resources</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="https://github.com/AirenSoft" target="_blank" class="footer-link">GitHub</a></li>
+<!--                                    <li><a href="usecase.html" class="footer-link">Use Cases</a></li>-->
+                                    <li><a href="latency.html" class="footer-active">Tech: Low Latency</a></li>
+                                    <li><a href="https://medium.com/@OvenMediaEngine" target="_blank" class="footer-link">AirenBlog</a></li>
+                                </ul>
+                            </div>
+							<div class="footer-col">
+                                <h6 class="footer-heading">Docs</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="https://docs.ovenmediaengine.com/" target="_blank" class="footer-link">OME Guide</a></li>
+                                    <li><a href="https://docs.enterprise.ovenmediaengine.com/" target="_blank" class="footer-link">OME-E Guide</a></li>
+									<li><a href="https://docs.ovenplayer.com/" target="_blank" class="footer-link">OP Guide</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h6 class="footer-heading">Company</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="company.html" class="footer-link">About Us</a></li>
+                                    <li><a href="contact.html" class="footer-link">Contact</a></li>
+									<li><a href="agplv3.html" class="footer-link">License Compliance</a></li>
+									<li><a href="eula.html" class="footer-link">EULA</a></li>
+                                </ul>
+                            </div>
+							<div class="footer-col">
+                                <h6 class="footer-heading">Social</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="https://www.linkedin.com/company/AirenSoft" target="_blank" class="footer-link">LinkedIn</a></li>
+                                    <li><a href="https://x.com/OvenMediaEngine" target="_blank" class="footer-link">X (Twitter)</a></li>
+                                    <li><a href="https://www.reddit.com/r/OvenMediaEngine" target="_blank" class="footer-link">Reddit</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="border-top border-darker mt-3 pt-2 text-center">
+                    <p class="copyright-text">Copyright &copy; AirenSoft Co., Ltd. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <button type="button" class="btn-scroll-top" id="btnScrollTop" aria-label="Scroll to Top">
+        <i class="ph ph-arrow-up text-white fs-4"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
-Disallow: /private*/
-Disallow: /images/partners/
-Disallow: /images/svg/
-Sitemap: https://airensoft.com/sitemap.xml
+Disallow: /404.html
+Disallow: /assets/
+Disallow: /images/
+
+Sitemap: https://www.airensoft.com/sitemap.xml
